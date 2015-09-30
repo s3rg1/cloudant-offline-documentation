@@ -1,0 +1,1917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029919B99B75DC0ADAD69AB903B242D /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = DACE2C1847623A2F127D13B5FCD7EF68 /* DDLog+LOGV.h */; };
+		014901B9ACA008022BFD6CA59CBAA985 /* TDSequenceMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C71C0220948977A8D55F0B6215707F /* TDSequenceMap.h */; };
+		019F4E2F553ECDC02758450D621FDAD5 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AC267680BA752267514A38169D3F79 /* Version.h */; };
+		023FF5FE327FA2EB64D46D0381828B02 /* TDCanonicalJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E8275FE3968FBA4C55FBD9A10F11A7CB /* TDCanonicalJSON.m */; };
+		03532F7B568E568A805A5DF4FECBD3FD /* TDReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 959411DADE72200C75390AB4FB8EAA0A /* TDReachability.h */; };
+		035B185FA9C8AE61F5095CED93559A50 /* TDReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B600BC4FF677F5B9AAE350BC7CE2490 /* TDReachability.m */; };
+		0529100D98B982BD2349CE73B928A892 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEB6876077B2C1B7601E4D240F23300 /* Test.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		083D6A9591CA8425A1A2EC86F1B4CF2C /* CDTSessionCookieInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2D4973C9A8D04190DF759B0C3317D3 /* CDTSessionCookieInterceptor.h */; };
+		08BE96E50FEA914C17822A63F52C85EF /* CDTLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = C9390C859CD83F4F307CA59B2C293CB0 /* CDTLogging.h */; };
+		0912AB8C4610D3FFCE80B2927886AF7B /* CDTDocumentRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C952F674DAFAFAB96273EFE0478ABBE /* CDTDocumentRevision.m */; };
+		0A59AF8A68C81AD96C4E3ECFF8AE93F1 /* CDTQIndexUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB9B69F58E28FF8C09A4A1383FA4E2F /* CDTQIndexUpdater.h */; };
+		0B824AA3247628879D51279B6F4C7301 /* CDTLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = D895EED15B6905CBE1AB95B9861FF3F2 /* CDTLogging.m */; };
+		0CC0144E964BA4F9FD8E34FDDAC586FD /* CDTEncryptionKeychainConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C595900903E4F07516D3B34566A565 /* CDTEncryptionKeychainConstants.h */; };
+		0DB33C9288DC9A9BB70A4E82BF434D25 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AAAA7244BA0ECA236FBF4754FBC400 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0EB10D7656249E8F827EA31467289402 /* CDTEncryptionKeychainStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CF7E1CC033BCDB84CCD4AD86B5F041 /* CDTEncryptionKeychainStorage.h */; };
+		0F0AF77D8471B2593272BDD64720BAA1 /* CDTEncryptionKeychainUtils+PBKDF2.m in Sources */ = {isa = PBXBuildFile; fileRef = B4874726F653623369F899DC84CDEA42 /* CDTEncryptionKeychainUtils+PBKDF2.m */; };
+		0F4CA555C0646AEA543214710F3B3D34 /* CDTReplicatorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623BA4481C2237D2B2EB5F5C06C4AC6 /* CDTReplicatorFactory.m */; };
+		0FD809645B8276C7E14AB6360F49825E /* TD_View.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5E483B79C6AB8939627960B80582C6 /* TD_View.h */; };
+		104547FF8F7C907288FDC34822393BAA /* CDTBlobEncryptedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5844C9978A6BDA4CDF9074251DA7B9 /* CDTBlobEncryptedData.h */; };
+		10AC0DEFC78476DCD6E71F0C39A3D276 /* TDBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB99CFE0CC4FCEF86EA22B46BB9D65F /* TDBase64.h */; };
+		1192C74C494413D817B36B90A2AEA6CE /* CDTHTTPInterceptorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B3E05B39B3535BEFCD4906B63F53DF /* CDTHTTPInterceptorContext.h */; };
+		15405808B8808B384FB8B294F5D3A2EF /* CDTBlobEncryptedDataConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9054C42D9E435D7795737CDDB97D42 /* CDTBlobEncryptedDataConstants.h */; };
+		161D2D532C578B9F784501F997E105B6 /* CDTEncryptionKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BA83B088BA46FEF5781267FB2BB0C5 /* CDTEncryptionKeychainUtils.h */; };
+		16563DAB67DD2F1E0250076534FAD07C /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 134414B6A263B9A2112F0C92647C8337 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		198070D31AF01527A231BA8A907CF9D3 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2EADE1A005021A9CC8218FE1B30B4 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C162B9E24737222859C8CAB398ECB85 /* CDTQQueryValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E778DC9A8233228B42EE68FEC320FAB7 /* CDTQQueryValidator.m */; };
+		1C92E960EBD9023BD50AB08E4F454503 /* CDTDatastoreManager+EncryptionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D9DA9E516F368583B4C366BEE406A4 /* CDTDatastoreManager+EncryptionKey.h */; };
+		1DB4BD6EC3754F0BCAA8913819071F49 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D750EBFEAEDC2E9F7FA6E6E630877C /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E908DB804242BCA11EA98324EF64E83 /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 66449D6E17CA92D0BBF086BFB5E7DD77 /* Logging.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1F0D2490F616C7C2A0599B08042B6D80 /* TD_Database+LocalDocs.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7B95F337706BFB46247A8FEFEB079 /* TD_Database+LocalDocs.h */; };
+		1F46B116B9BFA28E065E8462C5441877 /* CDTDatastore+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DB37E524C7417B914BC59B5976A9423A /* CDTDatastore+Internal.h */; };
+		216D419AA1F3875F4F003845A5AB23A9 /* CDTEncryptionKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942F8E5647C5356C4A3267DADBA4237 /* CDTEncryptionKey.m */; };
+		21BC82A5EE8EB8468098E42BDFD6C8CD /* TD_Database+Conflicts.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9D4900F054291558ECE8CB2D9C3B8 /* TD_Database+Conflicts.m */; };
+		21F014A9F82F4276F00F8385447852C8 /* TD_Database+BlobFilenames.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D5EE5266D7A5A7D5FD4688139E298 /* TD_Database+BlobFilenames.m */; };
+		23283B36CC18B2C6B2183CD85E3B4313 /* TDBlobStore+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D518BD52273EAA06E4104601BD6043 /* TDBlobStore+Internal.h */; };
+		26032C289559AEDEB278BF1F765A28E0 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1B03EF5B538D21691771BC20BEDF66 /* DDDispatchQueueLogFormatter.h */; };
+		29C84AFDFB9D6FB4F9DD57E877E8787C /* TDCollateJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D57317AAA2CB7A8500736657DAD581 /* TDCollateJSON.m */; };
+		2A0594E6627CC2C71F18B0F91EB45540 /* CDTBlobWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = B01629A5237E39485BF3B846FEBC3B44 /* CDTBlobWriter.h */; };
+		2B14D7843F7020361D3E57B9AE24AF22 /* TDCanonicalJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = BF951887C63272C77AF2337CFBB2671D /* TDCanonicalJSON.h */; };
+		2B85CC2B12E9AC27C0E1C598AF0445A9 /* CDTFetchChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC22231EC11185EDD3BB570C7F43ABF /* CDTFetchChanges.h */; };
+		2C93385AD0DE736E0C89B62E5CE802A1 /* CDTAbstractReplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F6483E360B493341CA9A487FB9B57F76 /* CDTAbstractReplication.m */; };
+		2C95BD1C4E4B868D8316FE14E1ED40BF /* CDTDatastore+Conflicts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8403DA1B6469A9C45CD283540BE1AB /* CDTDatastore+Conflicts.m */; };
+		2E1D216ED853BC28D23C2C6EDC19508C /* CDTDatastore+Conflicts.h in Headers */ = {isa = PBXBuildFile; fileRef = 311882F4357663EBF7F5450A89C4E8CF /* CDTDatastore+Conflicts.h */; };
+		2EAE79028DBC290AC517D65C9BD25E56 /* CloudantSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ED132C91331D402F35D4418C2BED33 /* CloudantSync.h */; };
+		31B1204B96F0A293DD78D8B4B9CEF881 /* FMDatabase+EncryptionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 692EDE9A9EC976173B4E60FAD18300F1 /* FMDatabase+EncryptionKey.h */; };
+		325B79CECD3818DDB38F1172AADB3E87 /* MYErrorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E30058683F88C1F0840E512393DD23C4 /* MYErrorUtils.h */; };
+		327FCF563D1EE94FCC519C6D35AA64A2 /* MYBlockUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E24A39F2622314FC631FB910BC11C6 /* MYBlockUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32914A2E13955CDDA5BA219150BBF9E4 /* TD_Database+Attachments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD41D9C634506DB0D57646961F87433 /* TD_Database+Attachments.h */; };
+		34FCBB34CB21FE2508F8FE9314D2DFCD /* CDTQProjectedDocumentRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B236D9A5E309C918A77A3D107C0B32 /* CDTQProjectedDocumentRevision.m */; };
+		35387583FE5146ABE13AE6AD952F86BF /* TDReplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 829B5BC05F630EDA6CECF2A47C48DB9F /* TDReplicator.m */; };
+		35EEE7018E8D2B468DE1CE779EEFFEFA /* TDAuthorizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCC329558D8D020B77B6B254AE75D90 /* TDAuthorizer.m */; };
+		37184FBBCE7CAA268F5F1A2DED0CF1B4 /* TDBlobStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5276BDF838E9C4B8641266E08E6D48F6 /* TDBlobStore.m */; };
+		3864D11ABEBB3D876414255E723D742A /* TDSequenceMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AA9E40A209088866B18E03941E30F9 /* TDSequenceMap.m */; };
+		38EF4854C2C86C5F3FF98398D76A7536 /* ConcurrentOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D36ED2BBADEBEE769133292E574F77 /* ConcurrentOperation.h */; };
+		399DC768EFE213D833D1E221494C5F17 /* TDStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D5AF3EDACB87958D2756D1A6ED6181 /* TDStatus.h */; };
+		3AF688B0807A8521D09812E6D03C7AAA /* CDTQProjectedDocumentRevision.h in Headers */ = {isa = PBXBuildFile; fileRef = DC41761E3AA5284DBDEC3785BD1DFDBE /* CDTQProjectedDocumentRevision.h */; };
+		3B2911E8C495DCCF4A162FAED4EEBBBB /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B23EBAC70BBC774832D08744D9E08FCA /* GTMNSData+zlib.h */; };
+		3B3D5E4A1B2F67D55750D94BBDB7FDAF /* CDTEncryptionKeychainStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 895D4E160A82B088F53FE5BC4A1F06F9 /* CDTEncryptionKeychainStorage.m */; };
+		3B56F42A99A366D2018A13370FC80F24 /* CDTEncryptionKeychainUtils+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 426720E55497CE23FD51E111C816B60F /* CDTEncryptionKeychainUtils+AES.h */; };
+		3B993F214EB89EA1F321F22DC400AFBC /* TDURLConnectionChangeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5663631F7EC1ECEA15966ED94A861 /* TDURLConnectionChangeTracker.m */; };
+		3BB07F1885F84A8D787965B695C72F63 /* TDMultipartReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 05958ED41190B007B746204FEBF8E0F8 /* TDMultipartReader.h */; };
+		3CFD4C7299475BC3204CC6861F6712C9 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B1250FA1294B17C2DD73C3F616BCB9 /* FMDatabaseQueue.h */; };
+		3D3A1DE6D7E8B3E5FDA6A4FD3965D04B /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6DF1821BA1639E36EC7AB91C3B7282 /* DDLog.h */; };
+		3E2E4234ECA8842EA2DA76AA03F72C83 /* MYRegexUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4AD8562CE9A76C4A74FEC5A0997A2B /* MYRegexUtils.h */; };
+		3EA12C61D14502351FCDBC08F90FC269 /* TD_Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8924A1C6E06911AED4F842F60B2761 /* TD_Database.h */; };
+		3F048CF33AA5F4D5107326A1A3A6D62F /* CDTReplicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD30385E153F188DEAAE9049069CD436 /* CDTReplicator.m */; };
+		3F09FE32EF61E79730E99046ABCA64D4 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCC2DC16D2C65BDA216FF952C46A6A9 /* DDLegacyMacros.h */; };
+		3FDB35A3032844C3E10D3DECFE23F275 /* CDTQIndexCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE51558BC29E22D03409F530BA4594E /* CDTQIndexCreator.m */; };
+		410E0CD00E47899402A5B275C553E162 /* TD_Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDBEAB0B60F6AC5CC30B1998779FCCA /* TD_Body.h */; };
+		41CE37154E3D2AFDC0120AE17DE76EC9 /* CDTConflictResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F59AC5D19FB504796FC315F1801955B /* CDTConflictResolver.h */; };
+		41D59750E836BABE431E994682EC438A /* TDMultipartWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7087B2CBF1FB8D1050A3776AA83C04 /* TDMultipartWriter.m */; };
+		42BC282D93953EE68DC4B13AC63BC4CE /* CDTQIndexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A23A4A93AA9920DBEAA654806E6A328 /* CDTQIndexManager.m */; };
+		43BD979CB4AE07FF73404AD53997A9DC /* CDTSQLiteHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = B2542D280F5B9878646C6B039CA83F49 /* CDTSQLiteHelpers.h */; };
+		43E6493E112DB2167ADBDE2055C6ECD6 /* CDTReplicatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C21274BA3B4385626B107FE0D788CA2 /* CDTReplicatorDelegate.h */; };
+		446A9152DA3AC4AAA4318E8DBE6071DA /* TD_Database+Attachments.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3FF16F5276D8CCB226FBBD73D1533A /* TD_Database+Attachments.m */; };
+		44B0E495231985239A4390EDBF3BBC7B /* CDTBlobData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8669BAB22B567B75A5D4A65522044F7 /* CDTBlobData.m */; };
+		44ED0DBA1E0E68D2D989F9F17D351411 /* CDTEncryptionKeyNilProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B51A9F9BD85D9D02D02E22D91F7A686C /* CDTEncryptionKeyNilProvider.m */; };
+		45A17C2C605E9685F85EA497476AFF07 /* CDTQQuerySqlTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = A132A6667A2680F1F7B1762B3DD7F9CE /* CDTQQuerySqlTranslator.m */; };
+		461804A4AEE0217C156825CE14AF33A3 /* TDMultipartDocumentReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FBC0A50F6C43FE2C53BE0AB71ADD2C /* TDMultipartDocumentReader.h */; };
+		466E4A28B311F6C4A8F9FCE212F15391 /* CDTAbstractReplication.h in Headers */ = {isa = PBXBuildFile; fileRef = D96C32D99E6FA95FE10A33E0ABF873C1 /* CDTAbstractReplication.h */; };
+		47DE94366EC9F8CDA125A206417C4F5F /* TD_Database+Replication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4B62C19E9F6E008F1F9F3993B8207 /* TD_Database+Replication.m */; };
+		487CBF98D1A2AA159CDCFC01828AFD08 /* CDTMisc.h in Headers */ = {isa = PBXBuildFile; fileRef = C2100DCC057776F1EE856A6617A58C7D /* CDTMisc.h */; };
+		4A7575248D5F369CEDF1AA1A6FB8238B /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = FD616A0D5409DA01C7F2F80218FC4A36 /* Target.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AF69A8AD9A2A81B76EDFF4F63648FC8 /* CDTPullReplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1EE8D4AABFD202A10D490769866902 /* CDTPullReplication.h */; };
+		4B5D9B90403ABC4C63ABD32B87D1754F /* TDInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC454BAAAFEC2362DC50D36402E9EEEA /* TDInternal.h */; };
+		4BE236B7B08D3FDDED1A17E09A9FEC4D /* CDTAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E23F93F2E00C1442BD0185F3CFF8B33 /* CDTAttachment.h */; };
+		4EFA677C676E45B41EE5E151EFAFE718 /* CDTMutableDocumentRevision.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EC370B1107F5DF3996BD8CBF9AB6E4 /* CDTMutableDocumentRevision.h */; };
+		508683E206C72B58E85A39D222BBB5C0 /* CDTFetchChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EB573465BF21EC6F58169334F86DA /* CDTFetchChanges.m */; };
+		51B93E47D0A2927813EF4325C13CFAFE /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = AC01A380F66522E20E1BCE61D5393F88 /* FMDatabasePool.h */; };
+		51BEE045F3E096C32C0F2747FAD05834 /* CDTQQueryConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE70402B550BCE87701A8DD18C745B4 /* CDTQQueryConstants.h */; };
+		5368A50769744B8290CEB6ED1E06048D /* CDTQQuerySqlTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E3605444BC8386A37FE191FF063BF3 /* CDTQQuerySqlTranslator.h */; };
+		54541D12ABC7C8720827C061B418E2C0 /* CDTURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA6C65DF8065F19B2330A647482BB8D /* CDTURLSession.h */; };
+		55C1487488787B8E5B754198AE69B18A /* CDTDatastoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D50924047AD743AA6CE4C82689064C59 /* CDTDatastoreManager.m */; };
+		55D7DA41386EB7F1C1832919758C65E7 /* TD_Database+LocalDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8F371A56DACEBF5C0B758AC3DBCE01 /* TD_Database+LocalDocs.m */; };
+		5613C8726381615AE02C1C581ED91E29 /* CDTDatastore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A88BBA3AD06C12E61530FDDD3C7CC /* CDTDatastore-dummy.m */; };
+		5852208233D8DBBD5E1723A94B737023 /* TDMultiStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E96A153567D725F9F8C4FFA6A455407 /* TDMultiStreamWriter.m */; };
+		592E54180F191041E3B0C07195191E6C /* TDMultipartUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFC2EE4364DE1B3F1A179FECEA0CAB0 /* TDMultipartUploader.h */; };
+		59B1477DF5F131CE2455582E59218EB5 /* CDTDatastore+Attachments.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F49206361C39A2B5CA98F18D3296C1 /* CDTDatastore+Attachments.m */; };
+		5B98DCB9498F01654936A985910A79E0 /* CDTBlobHandleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA2919B118BAE5B020A3A2A0E95C5E6 /* CDTBlobHandleFactory.h */; };
+		5D37943DD6434F82E6DE660539D073C0 /* TD_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 449C40EA173373C85ED8C3BC46C0CF23 /* TD_View.m */; };
+		5FBB714BD222F17E64E965482F814D6A /* CDTSessionCookieInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10629E95988D6DB335B5A1628CA01C /* CDTSessionCookieInterceptor.m */; };
+		6063A06A50FF15560DF3BE56E75EC4E8 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B280C12996DDBE418905CB08F4ACB6 /* Test.h */; };
+		60B445F1EBE4C21DDF386C13B5DD3D9D /* TDBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E73F892E3EDCBC5C45E497CF4E8A090 /* TDBase64.m */; };
+		61648D16DED93DF13680DE3555A9B174 /* TDAuthorizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5BC8FC29CC9706EC1B0BE7C50D79EE /* TDAuthorizer.h */; };
+		6227C6EEA799524A7B9120792611127D /* TDSocketChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF3985A6E1019A7A5A17248F58E7D61 /* TDSocketChangeTracker.h */; };
+		626849CDF84CF7EED88ED5BF186AFA87 /* CDTHTTPInterceptorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B2B391020717568318C3A084517FAB /* CDTHTTPInterceptorContext.m */; };
+		62915F8643265D04F44B18B5B77F3DFD /* CDTDatastore+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA1C98F047CEC179391A645F9CE96A /* CDTDatastore+Internal.m */; };
+		62D69CD79BA7CA0B4F5EB5C7E106F936 /* MYBlockUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5656234ED6E64D62BE2A96DDB03213CA /* MYBlockUtils.h */; };
+		65733AEA77648D96ADBBB3931F1B0A98 /* TDJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F0A6DA6D3782AE640AB22C3BCEBAB /* TDJSON.m */; };
+		65DD2809EFDFC2DE7D2A774358E814C2 /* TDRemoteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 954F51CED9063B4163CDC90F94ACC607 /* TDRemoteRequest.m */; };
+		66014C46522C33F0F9F08112421ECB12 /* CDTEncryptionKeychainUtils+PBKDF2.h in Headers */ = {isa = PBXBuildFile; fileRef = A28F39775EAFEA0061A8B333310CEE97 /* CDTEncryptionKeychainUtils+PBKDF2.h */; };
+		665659EB610795DD7A196E1E7AF7A98D /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9AD7B0E5E0CD6B89AA6DC9149A2E4C /* FMDatabaseAdditions.h */; };
+		69F08510AE924FCE10F62C6BF2CA2F67 /* CDTEncryptionKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE87C9EC56838A8C053FE59A8D1BB2C /* CDTEncryptionKeychainManager.m */; };
+		6B907A5A4BDE5AC0C66706545FA9AAD6 /* TDStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = FA609BBC6964D4E64CBAC9AB06882367 /* TDStatus.m */; };
+		6BAF51873C82F72251407C9404A55E9E /* CDTEncryptionKeySimpleProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D818C48D8D4657302844A63CC5AFBAC /* CDTEncryptionKeySimpleProvider.h */; };
+		6D7692FD20DA0657F2C9DD584A35BF84 /* TDPuller.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB4682689731E193DDA4281EE54CC6A /* TDPuller.h */; };
+		6DFE2155932D086E36E7C1FB40D722B9 /* CDTBlobHandleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E86D99B2BA78FE0ABE69FB284135A3B3 /* CDTBlobHandleFactory.m */; };
+		6E482A5F612EE8FB15134EBFDF362F90 /* CDTQResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F517008A695CB832D052564793A8BE0 /* CDTQResultSet.m */; };
+		6F9E9EF0F9CB156B455ABE767E7A127A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */; };
+		6FD0A32948D872E173729AA8544C6F53 /* CDTQResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6F68C36582A32A4E0CED0EBAD25B1A /* CDTQResultSet.h */; };
+		7062B3688C3A142551CDBC2429D1B8E1 /* TDChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE81C8792DE47CA972CF32815B42D24 /* TDChangeTracker.h */; };
+		70731045ED6FA243EF6EE1E6B18CB685 /* CDTQQueryExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA29AE9980F21509F8C1A718132EE22 /* CDTQQueryExecutor.h */; };
+		70A7EDAE83686B9464A2E0E29187517F /* CDTQUnindexedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F9E5E0B3948544E7EB14641DA371A /* CDTQUnindexedMatcher.m */; };
+		719D06811589EDF45B7730EE11E47A1E /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA70696B212741154A173F0F1D0FAD03 /* DDASLLogger.h */; };
+		71BEC3EA69FB46FD84A76C47CD604E66 /* TD_Revision.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD3BE6C35AF36DA060AD466B9CC06A /* TD_Revision.m */; };
+		7240879D56D21DC57CC8CC97F19AAC11 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3C22E38E3D83C5B0AAE809B3D1ACD /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73A5EE849ABE3579B556BF92D2190D60 /* CollectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F6E0DF27ED8E9078C9A095BB52A6FE /* CollectionUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7510F68AB8F72E4F267110BCED5B90FE /* CDTBlobEncryptedData+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA54A974E0EC55A29049ECF2AF0CFBF /* CDTBlobEncryptedData+Internal.h */; };
+		764D5136BB675122AD21D0AD49CA242F /* MYStreamUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8EBE7B74FB735D20C553C411DBD74B /* MYStreamUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		767ABD700C00A13182699DCC5DD0F59A /* CDTQIndexManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 676F4EE83ACBD4470167BAE0F5A4BB15 /* CDTQIndexManager.h */; };
+		76A50BFCECBBCFFCC269A8278ED495FA /* TDReplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDC35A159F82252EB50D19EF1697D2B /* TDReplicator.h */; };
+		76F81B8182D49F66085FA4A14C5BFACE /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D147CB6ABFE0F350E5B03AB6FC1DEE7 /* DDContextFilterLogFormatter.h */; };
+		77596EA3AFB51494DFD2CD91E0B0245B /* CDTPullReplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E83177AF3AF5A820BF8DB26F1EAAD3 /* CDTPullReplication.m */; };
+		78803680334BF6BBCC8C57A65F5108B5 /* TDMisc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4049951B93274D7876F92AA85A0FB6 /* TDMisc.h */; };
+		78ED5D854288D0501ACC789D0FA0F5BD /* TDMultipartWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = C83FC667212A919951F4D2D3DE9992E0 /* TDMultipartWriter.h */; };
+		79B5D1128B40CA422F153456599DE8B5 /* CDTEncryptionKeychainManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BF9BF8444ED744E51A7060B77D9190 /* CDTEncryptionKeychainManager.h */; };
+		7A3AA59287B88C3937DB5F9C98EEFE65 /* MYDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A76294923E10279E62CB08980E6A5A98 /* MYDynamicObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7A9050795C4F186A5C2528D053F578B5 /* CDTQIndexUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4C9597C548AA402B5C841C5B0BB24 /* CDTQIndexUpdater.m */; };
+		7B6F642309505B574F9C391E85943025 /* CDTDatastore+Attachments.h in Headers */ = {isa = PBXBuildFile; fileRef = 9986BB2B0E4C33FFE78F40DAF038CD68 /* CDTDatastore+Attachments.h */; };
+		7B7173D96B76E413A0BBFD00E3421EDA /* CDTHTTPInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAAE5C0BD3876A81A802E5034E78414 /* CDTHTTPInterceptor.h */; };
+		7DFB223591D18DFEBF3EC5FCBD7CFAD3 /* CDTQUnindexedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7B7C201709A316E6CF0CAA9CC1FFDC /* CDTQUnindexedMatcher.h */; };
+		7F025C3ECFEF90B05754722660A1287D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A7C9738C007092C6725613E6433DB /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FC44DD6702E446F3FC6CC0C4AA26F74 /* CDTURLSessionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D94C7B12462BFF37C19AF0ED0286C04 /* CDTURLSessionTask.m */; };
+		8197C7E5ABC09B71ACDBDB034D9239FB /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A6E07F379D12D6A0E3FA48BAD5A21B /* FMDatabase.h */; };
+		821E48FE1FD34923DD71966F5867AA0A /* Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 6715220509D2EDCA271F1722DE3FBC91 /* Logging.h */; };
+		831A173C270F94D00C095A872B6A284A /* CDTDocumentRevision.h in Headers */ = {isa = PBXBuildFile; fileRef = D09D32DC79AA888564D5263D293413F2 /* CDTDocumentRevision.h */; };
+		84A0E4E398D92E863BA1BAC5D67E8371 /* TD_Attachment.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DD2BA27F8A961EDD5871B2E0319CBE /* TD_Attachment.h */; };
+		853041BE2A33442C0F54658D4A9241C6 /* Target.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B77FD8B7211C1571F56F3CBC1D037E6 /* Target.h */; };
+		858CF3D0AA315830BE60D5A31594A5BB /* TD_Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0B3BF11EFDE79AAEADDDA25E6C48C /* TD_Attachment.m */; };
+		858F66E26D88CF82251E84ADB6008F5B /* CDTReplicatorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3498CF5EAC9AD94D28025A3763A76D /* CDTReplicatorFactory.h */; };
+		85ACBC168053000372B91D91CBE53BCE /* MYErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34476BA47932702F82935BFDE69E44B8 /* MYErrorUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86B15E273CB97C5BB3C9B5BD62C3A958 /* TD_Database+Insertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7C13600FD1C8BDAE4346A06079A9C4 /* TD_Database+Insertion.h */; };
+		8748143322CD4E817F775910EC2524F3 /* CDTEncryptionKeyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E389C002746609BAC56B532C05D18F8D /* CDTEncryptionKeyProvider.h */; };
+		885C5E646EAE4CF277D0351D5C190227 /* CDTQValueExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7668247B7B32E310088203380795A49 /* CDTQValueExtractor.m */; };
+		889514DDF3375086605B833926B31092 /* CDTQQueryValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D223E73A7642EF9E7AFB4EE9D5D5FEB /* CDTQQueryValidator.h */; };
+		88D953523BC27C70BC9F51FBCE331CD8 /* CDTEncryptionKeychainProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0473CA9AB9DB9F9A82A41D9AA156B3DA /* CDTEncryptionKeychainProvider.h */; };
+		8A5C442EF87777F2B349AE7828BDAE1C /* CDTEncryptionKeychainProvider+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E24DFB7ECCAA2BDCE683073F5F92CC37 /* CDTEncryptionKeychainProvider+Internal.h */; };
+		8AB766F6E785E26629AFA8F53A0B8D25 /* TDBlobStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0907FAFB4295768C03447E7E5C581D1B /* TDBlobStore.h */; };
+		8AF8370D3D69353DF637F302CA994C98 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862F6F29C5AE0856A5E230BBD28CF713 /* FMDB-dummy.m */; };
+		8BD8660F70A1E1FDEDB9529917BF549B /* Pods-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E76328D5B41BF49821762EEC160BA50C /* Pods-ios-dummy.m */; };
+		8C37D2DCEC8A5867D79E339D88B6840E /* TDSocketChangeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D73954731F8D4A65DC94A11E2F8F8B6E /* TDSocketChangeTracker.m */; };
+		8DE10BD59B5A7A91F57E6D28E32E8279 /* TD_Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 21581812A1108973AFE3DD3030962E67 /* TD_Database.m */; };
+		8ED3B9182813C08919682FA2DDC286BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9E3D14290B5ED113AB6D7C8267FBEE /* SystemConfiguration.framework */; };
+		90C6F1F75D2BB75E94FCB54CBFE16DAD /* CloudantSyncEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FBE4194AFDADC9278EB5F19311AB0F /* CloudantSyncEncryption.h */; };
+		9252B2D25FAAF41F33BB97BC9B3012DF /* CDTBlobEncryptedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BF355B346AE9B19B8B09A4DC383C92 /* CDTBlobEncryptedData.m */; };
+		941E6AAD08912F8F0BB1E4B3192A0970 /* TD_Database+BlobFilenames.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E81F4D6B3B16BA29CA7E89881883CB3 /* TD_Database+BlobFilenames.h */; };
+		94A9892739A33D5C2E3136112989E1D1 /* TDReplicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7CA2764AAA28FC53294BEB4B12C634 /* TDReplicatorManager.h */; };
+		94C838118B24E2891036DD3FE1A3EAAE /* CDTQQueryExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8AD8F346995F6EFF95D08AE0334109 /* CDTQQueryExecutor.m */; };
+		9540D92E4BDE13CAB5665F1CA2BF363F /* TDMisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B675264DBE82072340E51C5C3422BE8 /* TDMisc.m */; };
+		968ABF7B16B4FC9ED58280ED62AEFF91 /* TD_Database+Replication.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F33EEE77E2C51B7A5DB4F232C39377 /* TD_Database+Replication.h */; };
+		96FE9D4C66817A573A3411948E5CB5CE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A28198CF235DE262873FAE7C86572A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		974665651694B1520177C4C4D9CC5372 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC974463B911783468EC378C3885347 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98E13850C2262AA89ABFA07D92D190AD /* TDURLConnectionChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = D333BC429472B7BD6535EE02EE31530C /* TDURLConnectionChangeTracker.h */; };
+		9A9009CC6F78F60F7E8D462907EEEF71 /* TDChangeTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603A07EC6E98A71F714197F38961FB4 /* TDChangeTracker.m */; };
+		9B1F4B671CBC5036A8BC9FDEF7E7ED02 /* ExceptionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A75207FC0E2C85B5B3DF924FA1ED0C6C /* ExceptionUtils.h */; };
+		9B64D391F1E6EAF696D1D6A9554427B6 /* FMDatabase+LongLong.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE27E2228FB8776BE61FCC2FCD0A520 /* FMDatabase+LongLong.m */; };
+		9C76D9018830F16BF9AFFD24CA036C76 /* CDTReplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAE1570009F9693D5DD9FDEE637BB25 /* CDTReplicator.h */; };
+		9F3DBF7BD8CCC307573B5431E56B83BD /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1AB3833BF9A231BCBC1B79FF126E6B /* DDLogMacros.h */; };
+		A1B8F6F4BE948D49C5807BE3BC251773 /* TD_Database+Insertion.m in Sources */ = {isa = PBXBuildFile; fileRef = 032905F1A72000BC0D9022FCA2D2EB60 /* TD_Database+Insertion.m */; };
+		A250DE274C42109311CE29B30EC07C91 /* CDTQQueryConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117707E083BD22B5F9836E6AB623F8F /* CDTQQueryConstants.m */; };
+		A29F904DB33FD3BE93A0197EF02C780A /* MYURLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6487A29C0D4EBD29E2E00525E79D70 /* MYURLUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5CEE47742999C9CDEB4B12F9FF28C91 /* FMDatabase+EncryptionKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 58088D34314F8400EB9AC95B8CFAD3F5 /* FMDatabase+EncryptionKey.m */; };
+		A613581598238CCB9F39CCD814C261F2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E36915D039A55F10AC36EB0E1FA2E36D /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7AC8D81FAC1DEC0BF82E70A4DD8F18E /* TD_Database+Conflicts.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C186BB4C69350138E4AE6DB488DD0E /* TD_Database+Conflicts.h */; };
+		A8895DB5B9FD547CCDFC7F9EB52F0CBC /* TDBatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 72620DDBC88E1D03FFC9F23E4C0E2264 /* TDBatcher.m */; };
+		A89803CCCDC19EE2E2E21E2E58D5BD0F /* CDTDatastore.h in Headers */ = {isa = PBXBuildFile; fileRef = 197977E18A27104272BCCCB9DCF1DA3E /* CDTDatastore.h */; };
+		A8985F5C4A012492E1C57477F1BB7DFA /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F81912DC4A9965179512AB758A89CE /* DDASLLogCapture.h */; };
+		AB2941B963B700D7DD62DEDF7A20AA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */; };
+		AF47A70064BFB522ADE1E04FDD14FC57 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 077782685BD89E4F1A20B27E0766DA52 /* DDAssertMacros.h */; };
+		AFC764173F30DB2090D96E0D7A8C2797 /* CDTEncryptionKeychainProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 780765F493BA70AB92BD54F5FDBAFD61 /* CDTEncryptionKeychainProvider.m */; };
+		B029599C82762124E69D114614A5F019 /* CDTQIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3AFE9B1CDFC8047BC0BFEAD492730 /* CDTQIndex.m */; };
+		B0664C96A15120E520C6D838A452004A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */; };
+		B0A91B031F22A1E419C55694E0995723 /* MYRegexUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFFC36945B0BFF0698E1923E6AB030 /* MYRegexUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B49B0DE1055CBA85745953349F511232 /* CDTDatastore+EncryptionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC283C1431BA4D051B250F9CFEB8BA1 /* CDTDatastore+EncryptionKey.h */; };
+		B6F07121A167666E852A1053E4AE4D0C /* CDTPushReplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 4026BA740550A684A4BF1422D7640CFE /* CDTPushReplication.h */; };
+		B757C0A0A8A59D8DAEF33BF82AB994EE /* TDBatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D689574D55BF5F0E7243B515A08D9E /* TDBatcher.h */; };
+		B77643978935CA78134A60186AE10C25 /* TDMultipartDocumentReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A3B305CFEFA3D2796B2727F96AE06 /* TDMultipartDocumentReader.m */; };
+		B78F41EDC65093A1FD3BD7BE0FBD0E31 /* TDJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9C4E4D5327315FAFF91A83557C56AE /* TDJSON.h */; };
+		B98FC87C85D9EB8FCA5F3CD3E15F5655 /* CDTEncryptionKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00CFDD3B5B0A79C4200B3B46CB658A /* CDTEncryptionKeychainUtils.m */; };
+		BA415BD6EEDB2B9759EB01BD14A61297 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD15898FB0807C0DA2EF8B273D251C /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA60FB1309856EE34A079E45E7FC42BB /* CDTMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AF00B4124A36D626DA44FD086EF61 /* CDTMacros.h */; };
+		BBF5E78CFFCFCA16431E68975AC5D942 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9594A12529863CC27C070B3B00DC8 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD851F44F8409C47F9FC87B93BC6A154 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A14061BFCAC708B1F4458B90B2826F /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEDA77E2BB83268F3A2BBB11458AF37E /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F19E2F83D93F00212FCD6CCD959A59 /* CocoaLumberjack.h */; };
+		C07B957559F624769DBA822305576E72 /* TDRemoteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A60589DB17C2CBA1292D1EB9139154 /* TDRemoteRequest.h */; };
+		C0973DED05747B3F62F3B898AC654A57 /* CollectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7438F9A87DFE99F6085598EFE667CC /* CollectionUtils.h */; };
+		C3C01C8618A484BDFC6DDE243852C764 /* CDTPushReplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B6EA74D32D13F5E8B50969947AB2C4 /* CDTPushReplication.m */; };
+		C4727085D9547AB982ADE0663313039F /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A58359DC628C8EFF3FFFC08BE2A87C /* DDFileLogger.h */; };
+		C75987C29174D39DFBA0E6DCD8C13B27 /* CDTEncryptionKeychainManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CDA6E8CA9600F09246896BAB3CB56F /* CDTEncryptionKeychainManager+Internal.h */; };
+		C7AEB72601135CFD8AD617C82BCA508A /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E91CC194CA32074FF6855E4EC2B8AAF4 /* FMDB.h */; };
+		C817D1636D0DA565D7A3C7353221BFA5 /* CDTBlobData.h in Headers */ = {isa = PBXBuildFile; fileRef = 751A3D7414B77AB9EC889F590B2E2CCF /* CDTBlobData.h */; };
+		C8CE53CC44868CA753939C6A5F10C345 /* CDTEncryptionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3799619FAFD7FCBA2E93752BD54105 /* CDTEncryptionKey.h */; };
+		C8D4CAC2319D0DE6B594BE7493D90C22 /* FMDatabase+LongLong.h in Headers */ = {isa = PBXBuildFile; fileRef = 238A0BB8301DB3370C25A4552DB5B1CA /* FMDatabase+LongLong.h */; };
+		C97DE5711964F6336F92EE6BCDE17983 /* CDTQIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F2F757D5D6FEA4FF94D9E5143E08FA /* CDTQIndex.h */; };
+		C986D22E4598BCACC6C848A6BF8C914C /* TDReplicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A785E5E71A32BDB91EED54B3B03B39D /* TDReplicatorManager.m */; };
+		CAFCF599686AA184BEEB104483E7CD67 /* TDPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9100835958123A4F369FC37192768689 /* TDPusher.h */; };
+		CD5280A9DFD8733B353C9C310A31FE6C /* MYDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DE2913A0F13143758C92FC6C9476DA /* MYDynamicObject.h */; };
+		CE10FE2D9F1B5861BF0998BFF12FA472 /* CDTEncryptionKeySimpleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A758CC6E00AB67081E6AF0524C4D4360 /* CDTEncryptionKeySimpleProvider.m */; };
+		D3055BCD2E08E3DED2199049BB0A3F5D /* CDTEncryptionKeychainUtils+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = D7908204E8F078F6CCB9D32EBDE9A4C6 /* CDTEncryptionKeychainUtils+AES.m */; };
+		D4BE429E97AE56174F7C44D91014E352 /* CDTEncryptionKeychainData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7513F3E49D86C67D7D82489E4C2BF2DD /* CDTEncryptionKeychainData.h */; };
+		D6D167EAF8E94E3D7D1850F38384CF53 /* CDTEncryptionKeyNilProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A6BB2E765838923B53F1484DB626BA /* CDTEncryptionKeyNilProvider.h */; };
+		D82EA09DD99422DF134E67EBD5366C4B /* CDTQValueExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A5F98A54DE9AE5EFCC8A76D7E350E3 /* CDTQValueExtractor.h */; };
+		D844B43037960D46637B7E9D1776DCE5 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CE398908A9C189CCEF0FA0FA7AAD11D3 /* DDTTYLogger.h */; };
+		D92442409B3CE663764845C5999ACA60 /* CDTMutableDocumentRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7736E91B46C341C7DC7EB458414257 /* CDTMutableDocumentRevision.m */; };
+		DA1905A3E00B7619C37DC8912889FC30 /* TDCollateJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 879F76E095350290F221BC9585BC99DD /* TDCollateJSON.h */; };
+		DA549EB6AD18352673D1D5E055128EFE /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D411E036CF085158FB22D862E725BD76 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAC0061F0CEA20F5837DEDF1FB8FA2F4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 24837C35B8F0278099CB1304EB3F4514 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DCF1542B5804D199AC9D68B42235F93F /* CDTAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F11951EEF4F0A6A14C3108F7D190E3B /* CDTAttachment.m */; };
+		DD7EE7A76A06ED3630C506CEDB478C3F /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F00BD0B5B7CEF6455D142758CBD4F60 /* FMResultSet.h */; };
+		DDB38F784082B7995C1032C54652891D /* CDTMisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C170240B1483DAC0BD8B1D8BB0D4B13 /* CDTMisc.m */; };
+		DE3BBF8D2484CA2C1E1353DDA5D06C71 /* CDTURLSessionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C8F8A34FCC17FA1B6A72ED9BA6E58F /* CDTURLSessionTask.h */; };
+		DE8547F19C6D0C2D58AA312E0DC4620E /* TD_Body.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3A45C4533DE1575E5B42B75B404C52 /* TD_Body.m */; };
+		DEB6D74A2E599F06BCED4A479BC4B37A /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD37313724EA8D362F68AB46FCB8304 /* GTMDefines.h */; };
+		DEC479B0C1CBE468ABE731EE7AE28EDC /* TDMultipartReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 885FB752719AB12665027DEEC5F68EBE /* TDMultipartReader.m */; };
+		E25852E243F48973DBDB47F914BD5576 /* TD_DatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 572D7816B63E13077C64DA1E32DE896B /* TD_DatabaseManager.h */; };
+		E37FC80C844067E42BB6DD611C4554ED /* CDTQLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 4981DB36A2B55F18FF17041B8DF192A1 /* CDTQLogging.h */; };
+		E5C4AFACE30510CBDF305200D96016B4 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BB4C866B50DEE497956DE2C2E1EDA /* GTMNSData+zlib.m */; };
+		E6886596CDFD5DF7878D18D1B0630826 /* TDPusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722110ACDBB81CC88E61BBEE3688B31 /* TDPusher.m */; };
+		EA428C66ACF12DCD023DE5747AF54C59 /* TDMultipartDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F6F1950FD8AF1C24DAA4A26CD1379A /* TDMultipartDownloader.h */; };
+		EAADB83A1547831E3EE7B3794A334934 /* TDMultipartDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1910D4D46A40D98CD944415FBEA0394 /* TDMultipartDownloader.m */; };
+		EB737D788CF52986DDCE36D7EF0DBF1F /* TDMultiStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CDE1BCB459DDEC760E8353C381AA4B /* TDMultiStreamWriter.h */; };
+		EB93AF61F846C990133FCFCAA857BF9A /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF7D0026BF04D776E5760D1F67985A0 /* DDAbstractDatabaseLogger.h */; };
+		EDE9B3FFCE3583B6AE3116B7AEEA44C4 /* ConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 621D3171CAB931F4F5F10BE0F7F68B77 /* ConcurrentOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F02832CE125E55D3942CA15DC8E43150 /* CDTDatastore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7E849B195023F19F55C80A099CC8 /* CDTDatastore.m */; };
+		F054646729CA0C94A47BA821C4695A9F /* CDTDatastoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAADC0B538947825B20CE2B873473CF /* CDTDatastoreManager.h */; };
+		F1020944B97588BC06FD604CC4713D0C /* CDTDatastore+Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E3F9F23774508EB89878A73E87BE2 /* CDTDatastore+Query.m */; };
+		F173E198FA3300F9B0CD6327DE420BB8 /* TDPuller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B035CEE6C76C7AA47C8F8EE87D3A78C /* TDPuller.m */; };
+		F1ADCFC3AC09207B666B914C4F534428 /* TD_DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A70336A1EE763EFED852D36B26C9E2AE /* TD_DatabaseManager.m */; };
+		F1B39FFF8C881B12D09BC984C9F49E86 /* TD_Revision.h in Headers */ = {isa = PBXBuildFile; fileRef = 909129B62D395B13B2F01F2C7502BC57 /* TD_Revision.h */; };
+		F1DF33CC50D0A457BE1414F6EBB51318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */; };
+		F2D6C26CFF8F36747413126FE255C196 /* CDTSQLiteHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0116072BF1EFB0DF9B992230192EDC /* CDTSQLiteHelpers.m */; };
+		F31277BF56C8F0A71DC5996FA7D047B4 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C842B844DC1F4C99943FBABD254F8EE2 /* CocoaLumberjack-dummy.m */; };
+		F58013E84BA8F113CB881C5CD5CC5ABB /* ExceptionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AB75DFA3439B252D544F5C2D28808358 /* ExceptionUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F61031B62E474FE8462EE8CE56EA15CF /* CDTBlobReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E340FC7924DC64F5A4CD18D2332C1C /* CDTBlobReader.h */; };
+		F64F694F3A2D4F4A14B29D3306566A90 /* CDTDatastore+Query.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA98A5AFE93DBE54EF6A5B43D61EC7A /* CDTDatastore+Query.h */; };
+		F6F1B4259077FB6F2DE2DF6CC490AF68 /* MYURLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2903BCB2DFAD66B72D0AD154E8E46216 /* MYURLUtils.h */; };
+		F70A7966FD913A67E2263868DA710BC6 /* TDMultipartUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = E47B77B9BA2545A5D6CF6342234CF802 /* TDMultipartUploader.m */; };
+		F949FED7EC2A98549BE9431E22DA80BF /* CDTEncryptionKeychainData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2AF77B00BA3196FB71B879B0922CA0 /* CDTEncryptionKeychainData.m */; };
+		F9C06C645C827D1BEBAD29AEE05660A6 /* CDTQIndexCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD4F64691490A03E3BD52CC2405A1BE /* CDTQIndexCreator.h */; };
+		FBD68C6C75152AED1323C01AD688E17C /* CDTURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCFCB3131131CF300FFA964375B19D /* CDTURLSession.m */; };
+		FC2C62EBF7A8882301016F2F087CADBF /* MYStreamUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A87531BFBBC78AE76C97C4AAEC65FB /* MYStreamUtils.h */; };
+		FDDF80A4BE2605FEBA4D35C8750D392D /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DF70718F56F410C7EDCE74E33CBFFF73 /* DDMultiFormatter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		384C24A347DCF41F46FEB79DE0139F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332A0FD166941D5FD95A0E7C14485539;
+			remoteInfo = CocoaLumberjack;
+		};
+		5AD3B70AC257F2106AA31BBEBD02751F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ABC55CA62C8ECBE69A4E133A3A11CEA;
+			remoteInfo = CDTDatastore;
+		};
+		6E63D38027170E3E5AA9421B2D1DB2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C90F3E750D3D21550085B2B6C7A9B40;
+			remoteInfo = FMDB;
+		};
+		BBF7D5438E743E64AAC1D69031C5BCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C90F3E750D3D21550085B2B6C7A9B40;
+			remoteInfo = FMDB;
+		};
+		C40C0D4063FC030C363E516F5F700AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332A0FD166941D5FD95A0E7C14485539;
+			remoteInfo = CocoaLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E83177AF3AF5A820BF8DB26F1EAAD3 /* CDTPullReplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTPullReplication.m; sourceTree = "<group>"; };
+		01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		032905F1A72000BC0D9022FCA2D2EB60 /* TD_Database+Insertion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+Insertion.m"; sourceTree = "<group>"; };
+		03BF9BF8444ED744E51A7060B77D9190 /* CDTEncryptionKeychainManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainManager.h; sourceTree = "<group>"; };
+		0473CA9AB9DB9F9A82A41D9AA156B3DA /* CDTEncryptionKeychainProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainProvider.h; sourceTree = "<group>"; };
+		05958ED41190B007B746204FEBF8E0F8 /* TDMultipartReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultipartReader.h; sourceTree = "<group>"; };
+		0722110ACDBB81CC88E61BBEE3688B31 /* TDPusher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDPusher.m; sourceTree = "<group>"; };
+		077782685BD89E4F1A20B27E0766DA52 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		0907FAFB4295768C03447E7E5C581D1B /* TDBlobStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDBlobStore.h; sourceTree = "<group>"; };
+		0A5844C9978A6BDA4CDF9074251DA7B9 /* CDTBlobEncryptedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobEncryptedData.h; sourceTree = "<group>"; };
+		0AAD15898FB0807C0DA2EF8B273D251C /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		0AF3C22E38E3D83C5B0AAE809B3D1ACD /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		0C2AF77B00BA3196FB71B879B0922CA0 /* CDTEncryptionKeychainData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainData.m; sourceTree = "<group>"; };
+		0D10629E95988D6DB335B5A1628CA01C /* CDTSessionCookieInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTSessionCookieInterceptor.m; sourceTree = "<group>"; };
+		0D147CB6ABFE0F350E5B03AB6FC1DEE7 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		0D3498CF5EAC9AD94D28025A3763A76D /* CDTReplicatorFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTReplicatorFactory.h; sourceTree = "<group>"; };
+		0E81F4D6B3B16BA29CA7E89881883CB3 /* TD_Database+BlobFilenames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+BlobFilenames.h"; sourceTree = "<group>"; };
+		0F4A3B305CFEFA3D2796B2727F96AE06 /* TDMultipartDocumentReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultipartDocumentReader.m; sourceTree = "<group>"; };
+		10CDE1BCB459DDEC760E8353C381AA4B /* TDMultiStreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultiStreamWriter.h; sourceTree = "<group>"; };
+		134414B6A263B9A2112F0C92647C8337 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		14D36ED2BBADEBEE769133292E574F77 /* ConcurrentOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConcurrentOperation.h; sourceTree = "<group>"; };
+		18F33EEE77E2C51B7A5DB4F232C39377 /* TD_Database+Replication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+Replication.h"; sourceTree = "<group>"; };
+		197977E18A27104272BCCCB9DCF1DA3E /* CDTDatastore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTDatastore.h; sourceTree = "<group>"; };
+		1AA54A974E0EC55A29049ECF2AF0CFBF /* CDTBlobEncryptedData+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTBlobEncryptedData+Internal.h"; sourceTree = "<group>"; };
+		1B675264DBE82072340E51C5C3422BE8 /* TDMisc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMisc.m; sourceTree = "<group>"; };
+		1BB4C9597C548AA402B5C841C5B0BB24 /* CDTQIndexUpdater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQIndexUpdater.m; sourceTree = "<group>"; };
+		1C7B7C201709A316E6CF0CAA9CC1FFDC /* CDTQUnindexedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQUnindexedMatcher.h; sourceTree = "<group>"; };
+		1C952F674DAFAFAB96273EFE0478ABBE /* CDTDocumentRevision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTDocumentRevision.m; sourceTree = "<group>"; };
+		1D1B03EF5B538D21691771BC20BEDF66 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		1D8924A1C6E06911AED4F842F60B2761 /* TD_Database.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_Database.h; sourceTree = "<group>"; };
+		1E73F892E3EDCBC5C45E497CF4E8A090 /* TDBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDBase64.m; sourceTree = "<group>"; };
+		21581812A1108973AFE3DD3030962E67 /* TD_Database.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_Database.m; sourceTree = "<group>"; };
+		22D689574D55BF5F0E7243B515A08D9E /* TDBatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDBatcher.h; sourceTree = "<group>"; };
+		238A0BB8301DB3370C25A4552DB5B1CA /* FMDatabase+LongLong.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+LongLong.h"; sourceTree = "<group>"; };
+		24837C35B8F0278099CB1304EB3F4514 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		26513EB8138D8975C4B6CF14FD48730E /* CDTDatastore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDTDatastore.xcconfig; sourceTree = "<group>"; };
+		2903BCB2DFAD66B72D0AD154E8E46216 /* MYURLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYURLUtils.h; sourceTree = "<group>"; };
+		2A6DF1821BA1639E36EC7AB91C3B7282 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		2BD4F64691490A03E3BD52CC2405A1BE /* CDTQIndexCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQIndexCreator.h; sourceTree = "<group>"; };
+		2BF0B3BF11EFDE79AAEADDDA25E6C48C /* TD_Attachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_Attachment.m; sourceTree = "<group>"; };
+		2C7736E91B46C341C7DC7EB458414257 /* CDTMutableDocumentRevision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTMutableDocumentRevision.m; sourceTree = "<group>"; };
+		2C8403DA1B6469A9C45CD283540BE1AB /* CDTDatastore+Conflicts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTDatastore+Conflicts.m"; sourceTree = "<group>"; };
+		2CD41D9C634506DB0D57646961F87433 /* TD_Database+Attachments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+Attachments.h"; sourceTree = "<group>"; };
+		2D7087B2CBF1FB8D1050A3776AA83C04 /* TDMultipartWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultipartWriter.m; sourceTree = "<group>"; };
+		2DAE1570009F9693D5DD9FDEE637BB25 /* CDTReplicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTReplicator.h; sourceTree = "<group>"; };
+		2DD2EADE1A005021A9CC8218FE1B30B4 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		2E4049951B93274D7876F92AA85A0FB6 /* TDMisc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMisc.h; sourceTree = "<group>"; };
+		3117707E083BD22B5F9836E6AB623F8F /* CDTQQueryConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQQueryConstants.m; sourceTree = "<group>"; };
+		311882F4357663EBF7F5450A89C4E8CF /* CDTDatastore+Conflicts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore+Conflicts.h"; sourceTree = "<group>"; };
+		322E3F9F23774508EB89878A73E87BE2 /* CDTDatastore+Query.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTDatastore+Query.m"; sourceTree = "<group>"; };
+		32B280C12996DDBE418905CB08F4ACB6 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		33BF355B346AE9B19B8B09A4DC383C92 /* CDTBlobEncryptedData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTBlobEncryptedData.m; sourceTree = "<group>"; };
+		34476BA47932702F82935BFDE69E44B8 /* MYErrorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYErrorUtils.m; sourceTree = "<group>"; };
+		34F2F757D5D6FEA4FF94D9E5143E08FA /* CDTQIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQIndex.h; sourceTree = "<group>"; };
+		35A87531BFBBC78AE76C97C4AAEC65FB /* MYStreamUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYStreamUtils.h; sourceTree = "<group>"; };
+		35BA83B088BA46FEF5781267FB2BB0C5 /* CDTEncryptionKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainUtils.h; sourceTree = "<group>"; };
+		36A60589DB17C2CBA1292D1EB9139154 /* TDRemoteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDRemoteRequest.h; sourceTree = "<group>"; };
+		38E340FC7924DC64F5A4CD18D2332C1C /* CDTBlobReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobReader.h; sourceTree = "<group>"; };
+		3A23A4A93AA9920DBEAA654806E6A328 /* CDTQIndexManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQIndexManager.m; sourceTree = "<group>"; };
+		3BA2919B118BAE5B020A3A2A0E95C5E6 /* CDTBlobHandleFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobHandleFactory.h; sourceTree = "<group>"; };
+		3BDA1C98F047CEC179391A645F9CE96A /* CDTDatastore+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTDatastore+Internal.m"; sourceTree = "<group>"; };
+		3CC22231EC11185EDD3BB570C7F43ABF /* CDTFetchChanges.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTFetchChanges.h; sourceTree = "<group>"; };
+		3CEFFC36945B0BFF0698E1923E6AB030 /* MYRegexUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYRegexUtils.m; sourceTree = "<group>"; };
+		3D223E73A7642EF9E7AFB4EE9D5D5FEB /* CDTQQueryValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQQueryValidator.h; sourceTree = "<group>"; };
+		3D818C48D8D4657302844A63CC5AFBAC /* CDTEncryptionKeySimpleProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeySimpleProvider.h; sourceTree = "<group>"; };
+		3E3799619FAFD7FCBA2E93752BD54105 /* CDTEncryptionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKey.h; sourceTree = "<group>"; };
+		3F2EB573465BF21EC6F58169334F86DA /* CDTFetchChanges.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTFetchChanges.m; sourceTree = "<group>"; };
+		3FCC2DC16D2C65BDA216FF952C46A6A9 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		3FD9594A12529863CC27C070B3B00DC8 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		4026BA740550A684A4BF1422D7640CFE /* CDTPushReplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTPushReplication.h; sourceTree = "<group>"; };
+		41ED132C91331D402F35D4418C2BED33 /* CloudantSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudantSync.h; sourceTree = "<group>"; };
+		426720E55497CE23FD51E111C816B60F /* CDTEncryptionKeychainUtils+AES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTEncryptionKeychainUtils+AES.h"; sourceTree = "<group>"; };
+		42CDA6E8CA9600F09246896BAB3CB56F /* CDTEncryptionKeychainManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTEncryptionKeychainManager+Internal.h"; sourceTree = "<group>"; };
+		449C40EA173373C85ED8C3BC46C0CF23 /* TD_View.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_View.m; sourceTree = "<group>"; };
+		462F0A6DA6D3782AE640AB22C3BCEBAB /* TDJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDJSON.m; sourceTree = "<group>"; };
+		47C71C0220948977A8D55F0B6215707F /* TDSequenceMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDSequenceMap.h; sourceTree = "<group>"; };
+		47F6E0DF27ED8E9078C9A095BB52A6FE /* CollectionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CollectionUtils.m; sourceTree = "<group>"; };
+		4942F8E5647C5356C4A3267DADBA4237 /* CDTEncryptionKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKey.m; sourceTree = "<group>"; };
+		4955EF2EFBFBC8541F94F51F508B5795 /* FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		4981DB36A2B55F18FF17041B8DF192A1 /* CDTQLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQLogging.h; sourceTree = "<group>"; };
+		4A6487A29C0D4EBD29E2E00525E79D70 /* MYURLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYURLUtils.m; sourceTree = "<group>"; };
+		4B035CEE6C76C7AA47C8F8EE87D3A78C /* TDPuller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDPuller.m; sourceTree = "<group>"; };
+		4B6F68C36582A32A4E0CED0EBAD25B1A /* CDTQResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQResultSet.h; sourceTree = "<group>"; };
+		4B77FD8B7211C1571F56F3CBC1D037E6 /* Target.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		4B7C13600FD1C8BDAE4346A06079A9C4 /* TD_Database+Insertion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+Insertion.h"; sourceTree = "<group>"; };
+		4B9054C42D9E435D7795737CDDB97D42 /* CDTBlobEncryptedDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobEncryptedDataConstants.h; sourceTree = "<group>"; };
+		4BAAE5C0BD3876A81A802E5034E78414 /* CDTHTTPInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTHTTPInterceptor.h; sourceTree = "<group>"; };
+		4BB4682689731E193DDA4281EE54CC6A /* TDPuller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDPuller.h; sourceTree = "<group>"; };
+		4C00CFDD3B5B0A79C4200B3B46CB658A /* CDTEncryptionKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainUtils.m; sourceTree = "<group>"; };
+		4DC4B62C19E9F6E008F1F9F3993B8207 /* TD_Database+Replication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+Replication.m"; sourceTree = "<group>"; };
+		4F517008A695CB832D052564793A8BE0 /* CDTQResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQResultSet.m; sourceTree = "<group>"; };
+		4FD37313724EA8D362F68AB46FCB8304 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		50D5AF3EDACB87958D2756D1A6ED6181 /* TDStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDStatus.h; sourceTree = "<group>"; };
+		5276BDF838E9C4B8641266E08E6D48F6 /* TDBlobStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDBlobStore.m; sourceTree = "<group>"; };
+		52AAAA7244BA0ECA236FBF4754FBC400 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		52B6EA74D32D13F5E8B50969947AB2C4 /* CDTPushReplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTPushReplication.m; sourceTree = "<group>"; };
+		54A14061BFCAC708B1F4458B90B2826F /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		5656234ED6E64D62BE2A96DDB03213CA /* MYBlockUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYBlockUtils.h; sourceTree = "<group>"; };
+		572D7816B63E13077C64DA1E32DE896B /* TD_DatabaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_DatabaseManager.h; sourceTree = "<group>"; };
+		58088D34314F8400EB9AC95B8CFAD3F5 /* FMDatabase+EncryptionKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+EncryptionKey.m"; sourceTree = "<group>"; };
+		5A785E5E71A32BDB91EED54B3B03B39D /* TDReplicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDReplicatorManager.m; sourceTree = "<group>"; };
+		5AF3AFE9B1CDFC8047BC0BFEAD492730 /* CDTQIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQIndex.m; sourceTree = "<group>"; };
+		5B8A7C9738C007092C6725613E6433DB /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		5BA631F697F15BAB0BFDC6B8D8784571 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3FF16F5276D8CCB226FBBD73D1533A /* TD_Database+Attachments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+Attachments.m"; sourceTree = "<group>"; };
+		5E7438F9A87DFE99F6085598EFE667CC /* CollectionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CollectionUtils.h; sourceTree = "<group>"; };
+		5EB9B69F58E28FF8C09A4A1383FA4E2F /* CDTQIndexUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQIndexUpdater.h; sourceTree = "<group>"; };
+		5F1AB3833BF9A231BCBC1B79FF126E6B /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		5FE51558BC29E22D03409F530BA4594E /* CDTQIndexCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQIndexCreator.m; sourceTree = "<group>"; };
+		621D3171CAB931F4F5F10BE0F7F68B77 /* ConcurrentOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConcurrentOperation.m; sourceTree = "<group>"; };
+		62AA9E40A209088866B18E03941E30F9 /* TDSequenceMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDSequenceMap.m; sourceTree = "<group>"; };
+		63B1250FA1294B17C2DD73C3F616BCB9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		64A6E07F379D12D6A0E3FA48BAD5A21B /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		64AC267680BA752267514A38169D3F79 /* Version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		66449D6E17CA92D0BBF086BFB5E7DD77 /* Logging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Logging.m; sourceTree = "<group>"; };
+		6715220509D2EDCA271F1722DE3FBC91 /* Logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		676F4EE83ACBD4470167BAE0F5A4BB15 /* CDTQIndexManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQIndexManager.h; sourceTree = "<group>"; };
+		68D750EBFEAEDC2E9F7FA6E6E630877C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		692EDE9A9EC976173B4E60FAD18300F1 /* FMDatabase+EncryptionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+EncryptionKey.h"; sourceTree = "<group>"; };
+		6B600BC4FF677F5B9AAE350BC7CE2490 /* TDReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDReachability.m; sourceTree = "<group>"; };
+		6C170240B1483DAC0BD8B1D8BB0D4B13 /* CDTMisc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTMisc.m; sourceTree = "<group>"; };
+		6EC974463B911783468EC378C3885347 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		6F1EE8D4AABFD202A10D490769866902 /* CDTPullReplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTPullReplication.h; sourceTree = "<group>"; };
+		71FE55D99CC61EF1176F45174AFC5C73 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		72620DDBC88E1D03FFC9F23E4C0E2264 /* TDBatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDBatcher.m; sourceTree = "<group>"; };
+		73F6F1950FD8AF1C24DAA4A26CD1379A /* TDMultipartDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultipartDownloader.h; sourceTree = "<group>"; };
+		7513F3E49D86C67D7D82489E4C2BF2DD /* CDTEncryptionKeychainData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainData.h; sourceTree = "<group>"; };
+		751A3D7414B77AB9EC889F590B2E2CCF /* CDTBlobData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobData.h; sourceTree = "<group>"; };
+		7584E489914D4E8647EC2D997A64F9E8 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		75F49206361C39A2B5CA98F18D3296C1 /* CDTDatastore+Attachments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTDatastore+Attachments.m"; sourceTree = "<group>"; };
+		77A6BB2E765838923B53F1484DB626BA /* CDTEncryptionKeyNilProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeyNilProvider.h; sourceTree = "<group>"; };
+		780765F493BA70AB92BD54F5FDBAFD61 /* CDTEncryptionKeychainProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainProvider.m; sourceTree = "<group>"; };
+		78F19E2F83D93F00212FCD6CCD959A59 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		79D9DA9E516F368583B4C366BEE406A4 /* CDTDatastoreManager+EncryptionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastoreManager+EncryptionKey.h"; sourceTree = "<group>"; };
+		7A9C4E4D5327315FAFF91A83557C56AE /* TDJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDJSON.h; sourceTree = "<group>"; };
+		7C8BB4C866B50DEE497956DE2C2E1EDA /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		7CAADC0B538947825B20CE2B873473CF /* CDTDatastoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTDatastoreManager.h; sourceTree = "<group>"; };
+		7E23F93F2E00C1442BD0185F3CFF8B33 /* CDTAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTAttachment.h; sourceTree = "<group>"; };
+		7E56827C637823BFC6CB3031175FD586 /* Pods-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-resources.sh"; sourceTree = "<group>"; };
+		7EA29AE9980F21509F8C1A718132EE22 /* CDTQQueryExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQQueryExecutor.h; sourceTree = "<group>"; };
+		7F11951EEF4F0A6A14C3108F7D190E3B /* CDTAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTAttachment.m; sourceTree = "<group>"; };
+		829B5BC05F630EDA6CECF2A47C48DB9F /* TDReplicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDReplicator.m; sourceTree = "<group>"; };
+		82DCFCB3131131CF300FFA964375B19D /* CDTURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTURLSession.m; sourceTree = "<group>"; };
+		85C8F8A34FCC17FA1B6A72ED9BA6E58F /* CDTURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTURLSessionTask.h; sourceTree = "<group>"; };
+		85FBE4194AFDADC9278EB5F19311AB0F /* CloudantSyncEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudantSyncEncryption.h; sourceTree = "<group>"; };
+		8603A07EC6E98A71F714197F38961FB4 /* TDChangeTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDChangeTracker.m; sourceTree = "<group>"; };
+		8623BA4481C2237D2B2EB5F5C06C4AC6 /* CDTReplicatorFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTReplicatorFactory.m; sourceTree = "<group>"; };
+		862F6F29C5AE0856A5E230BBD28CF713 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		879F76E095350290F221BC9585BC99DD /* TDCollateJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDCollateJSON.h; sourceTree = "<group>"; };
+		885FB752719AB12665027DEEC5F68EBE /* TDMultipartReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultipartReader.m; sourceTree = "<group>"; };
+		88FBC0A50F6C43FE2C53BE0AB71ADD2C /* TDMultipartDocumentReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultipartDocumentReader.h; sourceTree = "<group>"; };
+		895D4E160A82B088F53FE5BC4A1F06F9 /* CDTEncryptionKeychainStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainStorage.m; sourceTree = "<group>"; };
+		89D518BD52273EAA06E4104601BD6043 /* TDBlobStore+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDBlobStore+Internal.h"; sourceTree = "<group>"; };
+		8A2F9E5E0B3948544E7EB14641DA371A /* CDTQUnindexedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQUnindexedMatcher.m; sourceTree = "<group>"; };
+		8B4AD8562CE9A76C4A74FEC5A0997A2B /* MYRegexUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYRegexUtils.h; sourceTree = "<group>"; };
+		8BE70402B550BCE87701A8DD18C745B4 /* CDTQQueryConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQQueryConstants.h; sourceTree = "<group>"; };
+		8C21274BA3B4385626B107FE0D788CA2 /* CDTReplicatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTReplicatorDelegate.h; sourceTree = "<group>"; };
+		8F59AC5D19FB504796FC315F1801955B /* CDTConflictResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTConflictResolver.h; sourceTree = "<group>"; };
+		8FA98A5AFE93DBE54EF6A5B43D61EC7A /* CDTDatastore+Query.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore+Query.h"; sourceTree = "<group>"; };
+		8FDBEAB0B60F6AC5CC30B1998779FCCA /* TD_Body.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_Body.h; sourceTree = "<group>"; };
+		909129B62D395B13B2F01F2C7502BC57 /* TD_Revision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_Revision.h; sourceTree = "<group>"; };
+		90A28198CF235DE262873FAE7C86572A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9100835958123A4F369FC37192768689 /* TDPusher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDPusher.h; sourceTree = "<group>"; };
+		91B6A786F0C65918CFB89F5468F33B6D /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		93E3605444BC8386A37FE191FF063BF3 /* CDTQQuerySqlTranslator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQQuerySqlTranslator.h; sourceTree = "<group>"; };
+		954F51CED9063B4163CDC90F94ACC607 /* TDRemoteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDRemoteRequest.m; sourceTree = "<group>"; };
+		959411DADE72200C75390AB4FB8EAA0A /* TDReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDReachability.h; sourceTree = "<group>"; };
+		9986BB2B0E4C33FFE78F40DAF038CD68 /* CDTDatastore+Attachments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore+Attachments.h"; sourceTree = "<group>"; };
+		9A0116072BF1EFB0DF9B992230192EDC /* CDTSQLiteHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTSQLiteHelpers.m; sourceTree = "<group>"; };
+		9BF3985A6E1019A7A5A17248F58E7D61 /* TDSocketChangeTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDSocketChangeTracker.h; sourceTree = "<group>"; };
+		9BFD987DCC7842E293D8A24D4F2FE7FC /* CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
+		9C3A7E849B195023F19F55C80A099CC8 /* CDTDatastore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTDatastore.m; sourceTree = "<group>"; };
+		9CE87C9EC56838A8C053FE59A8D1BB2C /* CDTEncryptionKeychainManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeychainManager.m; sourceTree = "<group>"; };
+		9D0AF00B4124A36D626DA44FD086EF61 /* CDTMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTMacros.h; sourceTree = "<group>"; };
+		9D94C7B12462BFF37C19AF0ED0286C04 /* CDTURLSessionTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTURLSessionTask.m; sourceTree = "<group>"; };
+		9E96A153567D725F9F8C4FFA6A455407 /* TDMultiStreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultiStreamWriter.m; sourceTree = "<group>"; };
+		9EDC35A159F82252EB50D19EF1697D2B /* TDReplicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDReplicator.h; sourceTree = "<group>"; };
+		9F00BD0B5B7CEF6455D142758CBD4F60 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		A0CF7E1CC033BCDB84CCD4AD86B5F041 /* CDTEncryptionKeychainStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainStorage.h; sourceTree = "<group>"; };
+		A0D57317AAA2CB7A8500736657DAD581 /* TDCollateJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDCollateJSON.m; sourceTree = "<group>"; };
+		A132A6667A2680F1F7B1762B3DD7F9CE /* CDTQQuerySqlTranslator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQQuerySqlTranslator.m; sourceTree = "<group>"; };
+		A28F39775EAFEA0061A8B333310CEE97 /* CDTEncryptionKeychainUtils+PBKDF2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTEncryptionKeychainUtils+PBKDF2.h"; sourceTree = "<group>"; };
+		A70336A1EE763EFED852D36B26C9E2AE /* TD_DatabaseManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_DatabaseManager.m; sourceTree = "<group>"; };
+		A75207FC0E2C85B5B3DF924FA1ED0C6C /* ExceptionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ExceptionUtils.h; sourceTree = "<group>"; };
+		A758CC6E00AB67081E6AF0524C4D4360 /* CDTEncryptionKeySimpleProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeySimpleProvider.m; sourceTree = "<group>"; };
+		A76294923E10279E62CB08980E6A5A98 /* MYDynamicObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYDynamicObject.m; sourceTree = "<group>"; };
+		A7668247B7B32E310088203380795A49 /* CDTQValueExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQValueExtractor.m; sourceTree = "<group>"; };
+		A7B2B391020717568318C3A084517FAB /* CDTHTTPInterceptorContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTHTTPInterceptorContext.m; sourceTree = "<group>"; };
+		A8A7B95F337706BFB46247A8FEFEB079 /* TD_Database+LocalDocs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+LocalDocs.h"; sourceTree = "<group>"; };
+		AA8EBE7B74FB735D20C553C411DBD74B /* MYStreamUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYStreamUtils.m; sourceTree = "<group>"; };
+		AB75DFA3439B252D544F5C2D28808358 /* ExceptionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ExceptionUtils.m; sourceTree = "<group>"; };
+		AC01A380F66522E20E1BCE61D5393F88 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		AC8AD8F346995F6EFF95D08AE0334109 /* CDTQQueryExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQQueryExecutor.m; sourceTree = "<group>"; };
+		AC8F371A56DACEBF5C0B758AC3DBCE01 /* TD_Database+LocalDocs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+LocalDocs.m"; sourceTree = "<group>"; };
+		ACC283C1431BA4D051B250F9CFEB8BA1 /* CDTDatastore+EncryptionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore+EncryptionKey.h"; sourceTree = "<group>"; };
+		AD2D4973C9A8D04190DF759B0C3317D3 /* CDTSessionCookieInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTSessionCookieInterceptor.h; sourceTree = "<group>"; };
+		B01629A5237E39485BF3B846FEBC3B44 /* CDTBlobWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTBlobWriter.h; sourceTree = "<group>"; };
+		B23EBAC70BBC774832D08744D9E08FCA /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		B2542D280F5B9878646C6B039CA83F49 /* CDTSQLiteHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTSQLiteHelpers.h; sourceTree = "<group>"; };
+		B2C186BB4C69350138E4AE6DB488DD0E /* TD_Database+Conflicts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TD_Database+Conflicts.h"; sourceTree = "<group>"; };
+		B45D5EE5266D7A5A7D5FD4688139E298 /* TD_Database+BlobFilenames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+BlobFilenames.m"; sourceTree = "<group>"; };
+		B4874726F653623369F899DC84CDEA42 /* CDTEncryptionKeychainUtils+PBKDF2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTEncryptionKeychainUtils+PBKDF2.m"; sourceTree = "<group>"; };
+		B4F5663631F7EC1ECEA15966ED94A861 /* TDURLConnectionChangeTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDURLConnectionChangeTracker.m; sourceTree = "<group>"; };
+		B51A9F9BD85D9D02D02E22D91F7A686C /* CDTEncryptionKeyNilProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeyNilProvider.m; sourceTree = "<group>"; };
+		B72A88BBA3AD06C12E61530FDDD3C7CC /* CDTDatastore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTDatastore-dummy.m"; sourceTree = "<group>"; };
+		B7B3E05B39B3535BEFCD4906B63F53DF /* CDTHTTPInterceptorContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTHTTPInterceptorContext.h; sourceTree = "<group>"; };
+		B8446FD64F4E9397684E6477FB6A638B /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
+		BA5E483B79C6AB8939627960B80582C6 /* TD_View.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_View.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAA6C65DF8065F19B2330A647482BB8D /* CDTURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTURLSession.h; sourceTree = "<group>"; };
+		BC9AD7B0E5E0CD6B89AA6DC9149A2E4C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BD16F5E0F50DC014D5C996225EB8D80B /* Pods-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD30385E153F188DEAAE9049069CD436 /* CDTReplicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTReplicator.m; sourceTree = "<group>"; };
+		BF951887C63272C77AF2337CFBB2671D /* TDCanonicalJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDCanonicalJSON.h; sourceTree = "<group>"; };
+		BFBD3BE6C35AF36DA060AD466B9CC06A /* TD_Revision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_Revision.m; sourceTree = "<group>"; };
+		BFCC329558D8D020B77B6B254AE75D90 /* TDAuthorizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDAuthorizer.m; sourceTree = "<group>"; };
+		C01BEA8BF7CE604E46DE1E756C082FD0 /* libCDTDatastore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCDTDatastore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2100DCC057776F1EE856A6617A58C7D /* CDTMisc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTMisc.h; sourceTree = "<group>"; };
+		C4B991A63A33F771FA8096CD299C4527 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		C6EC370B1107F5DF3996BD8CBF9AB6E4 /* CDTMutableDocumentRevision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTMutableDocumentRevision.h; sourceTree = "<group>"; };
+		C83FC667212A919951F4D2D3DE9992E0 /* TDMultipartWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultipartWriter.h; sourceTree = "<group>"; };
+		C842B844DC1F4C99943FBABD254F8EE2 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		C8DE2913A0F13143758C92FC6C9476DA /* MYDynamicObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYDynamicObject.h; sourceTree = "<group>"; };
+		C9390C859CD83F4F307CA59B2C293CB0 /* CDTLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTLogging.h; sourceTree = "<group>"; };
+		CBE27E2228FB8776BE61FCC2FCD0A520 /* FMDatabase+LongLong.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+LongLong.m"; sourceTree = "<group>"; };
+		CDB99CFE0CC4FCEF86EA22B46BB9D65F /* TDBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDBase64.h; sourceTree = "<group>"; };
+		CE398908A9C189CCEF0FA0FA7AAD11D3 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		D09D32DC79AA888564D5263D293413F2 /* CDTDocumentRevision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTDocumentRevision.h; sourceTree = "<group>"; };
+		D0A58359DC628C8EFF3FFFC08BE2A87C /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		D2C595900903E4F07516D3B34566A565 /* CDTEncryptionKeychainConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeychainConstants.h; sourceTree = "<group>"; };
+		D333BC429472B7BD6535EE02EE31530C /* TDURLConnectionChangeTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDURLConnectionChangeTracker.h; sourceTree = "<group>"; };
+		D411E036CF085158FB22D862E725BD76 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		D50924047AD743AA6CE4C82689064C59 /* CDTDatastoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTDatastoreManager.m; sourceTree = "<group>"; };
+		D6B236D9A5E309C918A77A3D107C0B32 /* CDTQProjectedDocumentRevision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQProjectedDocumentRevision.m; sourceTree = "<group>"; };
+		D73954731F8D4A65DC94A11E2F8F8B6E /* TDSocketChangeTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDSocketChangeTracker.m; sourceTree = "<group>"; };
+		D7908204E8F078F6CCB9D32EBDE9A4C6 /* CDTEncryptionKeychainUtils+AES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDTEncryptionKeychainUtils+AES.m"; sourceTree = "<group>"; };
+		D895EED15B6905CBE1AB95B9861FF3F2 /* CDTLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTLogging.m; sourceTree = "<group>"; };
+		D8E24A39F2622314FC631FB910BC11C6 /* MYBlockUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MYBlockUtils.m; sourceTree = "<group>"; };
+		D96C32D99E6FA95FE10A33E0ABF873C1 /* CDTAbstractReplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTAbstractReplication.h; sourceTree = "<group>"; };
+		DA70696B212741154A173F0F1D0FAD03 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		DA7CA2764AAA28FC53294BEB4B12C634 /* TDReplicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDReplicatorManager.h; sourceTree = "<group>"; };
+		DACE2C1847623A2F127D13B5FCD7EF68 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		DB37E524C7417B914BC59B5976A9423A /* CDTDatastore+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore+Internal.h"; sourceTree = "<group>"; };
+		DC1131D4CE3F0FA0DB62239187882C69 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC41761E3AA5284DBDEC3785BD1DFDBE /* CDTQProjectedDocumentRevision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQProjectedDocumentRevision.h; sourceTree = "<group>"; };
+		DC5BC8FC29CC9706EC1B0BE7C50D79EE /* TDAuthorizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDAuthorizer.h; sourceTree = "<group>"; };
+		DF70718F56F410C7EDCE74E33CBFFF73 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		E1910D4D46A40D98CD944415FBEA0394 /* TDMultipartDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultipartDownloader.m; sourceTree = "<group>"; };
+		E24DFB7ECCAA2BDCE683073F5F92CC37 /* CDTEncryptionKeychainProvider+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTEncryptionKeychainProvider+Internal.h"; sourceTree = "<group>"; };
+		E30058683F88C1F0840E512393DD23C4 /* MYErrorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MYErrorUtils.h; sourceTree = "<group>"; };
+		E36915D039A55F10AC36EB0E1FA2E36D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		E389C002746609BAC56B532C05D18F8D /* CDTEncryptionKeyProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTEncryptionKeyProvider.h; sourceTree = "<group>"; };
+		E47B77B9BA2545A5D6CF6342234CF802 /* TDMultipartUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDMultipartUploader.m; sourceTree = "<group>"; };
+		E4F81912DC4A9965179512AB758A89CE /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		E76328D5B41BF49821762EEC160BA50C /* Pods-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-dummy.m"; sourceTree = "<group>"; };
+		E778DC9A8233228B42EE68FEC320FAB7 /* CDTQQueryValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTQQueryValidator.m; sourceTree = "<group>"; };
+		E8275FE3968FBA4C55FBD9A10F11A7CB /* TDCanonicalJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDCanonicalJSON.m; sourceTree = "<group>"; };
+		E86D99B2BA78FE0ABE69FB284135A3B3 /* CDTBlobHandleFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTBlobHandleFactory.m; sourceTree = "<group>"; };
+		E8A5F98A54DE9AE5EFCC8A76D7E350E3 /* CDTQValueExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDTQValueExtractor.h; sourceTree = "<group>"; };
+		E91CC194CA32074FF6855E4EC2B8AAF4 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		EA3A45C4533DE1575E5B42B75B404C52 /* TD_Body.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TD_Body.m; sourceTree = "<group>"; };
+		EC9E3D14290B5ED113AB6D7C8267FBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		ED24116A562B309C09EE71037D93A419 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		EFF9D4900F054291558ECE8CB2D9C3B8 /* TD_Database+Conflicts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TD_Database+Conflicts.m"; sourceTree = "<group>"; };
+		EFFC2EE4364DE1B3F1A179FECEA0CAB0 /* TDMultipartUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDMultipartUploader.h; sourceTree = "<group>"; };
+		F0DD2BA27F8A961EDD5871B2E0319CBE /* TD_Attachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TD_Attachment.h; sourceTree = "<group>"; };
+		F62AD56CDAE75A2CE801F55165FE3CF9 /* CDTDatastore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CDTDatastore-Private.xcconfig"; sourceTree = "<group>"; };
+		F642B1EC1E3E754374F929ABE9125EDB /* CDTDatastore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDTDatastore-prefix.pch"; sourceTree = "<group>"; };
+		F6483E360B493341CA9A487FB9B57F76 /* CDTAbstractReplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTAbstractReplication.m; sourceTree = "<group>"; };
+		F8669BAB22B567B75A5D4A65522044F7 /* CDTBlobData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDTBlobData.m; sourceTree = "<group>"; };
+		F91969A1411FBC6A820CE85A9AE98B06 /* Pods-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA609BBC6964D4E64CBAC9AB06882367 /* TDStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDStatus.m; sourceTree = "<group>"; };
+		FBF7D0026BF04D776E5760D1F67985A0 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		FC454BAAAFEC2362DC50D36402E9EEEA /* TDInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDInternal.h; sourceTree = "<group>"; };
+		FCE81C8792DE47CA972CF32815B42D24 /* TDChangeTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDChangeTracker.h; sourceTree = "<group>"; };
+		FD616A0D5409DA01C7F2F80218FC4A36 /* Target.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		FD9FFCDBE969E2C378539917D4AF3588 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEB6876077B2C1B7601E4D240F23300 /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08C08FEF7DBB30E2EA19496D91022B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E9EF0F9CB156B455ABE767E7A127A /* Foundation.framework in Frameworks */,
+				8ED3B9182813C08919682FA2DDC286BD /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35F5A5549F885456B83DCCC0581CF646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2941B963B700D7DD62DEDF7A20AA0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4D746C6F8EAF4CC8D7DAE66E44F9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0664C96A15120E520C6D838A452004A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04BEAA3ED5DB689A84F45C990B1F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DF33CC50D0A457BE1414F6EBB51318 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D7B29CC37622612F0078BE8FF33AA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED24116A562B309C09EE71037D93A419 /* CocoaLumberjack.xcconfig */,
+				9BFD987DCC7842E293D8A24D4F2FE7FC /* CocoaLumberjack-Private.xcconfig */,
+				C842B844DC1F4C99943FBABD254F8EE2 /* CocoaLumberjack-dummy.m */,
+				C4B991A63A33F771FA8096CD299C4527 /* CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		1D642E1E9254C78E6D31F51EC76AC7F2 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				42A3EF1513669BE68F0B06DBF8BDA037 /* MYUtilities */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		202CE42D27980D7092677E143F7807DE /* ChangeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FCE81C8792DE47CA972CF32815B42D24 /* TDChangeTracker.h */,
+				8603A07EC6E98A71F714197F38961FB4 /* TDChangeTracker.m */,
+				9BF3985A6E1019A7A5A17248F58E7D61 /* TDSocketChangeTracker.h */,
+				D73954731F8D4A65DC94A11E2F8F8B6E /* TDSocketChangeTracker.m */,
+				D333BC429472B7BD6535EE02EE31530C /* TDURLConnectionChangeTracker.h */,
+				B4F5663631F7EC1ECEA15966ED94A861 /* TDURLConnectionChangeTracker.m */,
+			);
+			path = ChangeTracker;
+			sourceTree = "<group>";
+		};
+		2E23CF103BB870CA380A84497B3FFA50 /* CDTReplicator */ = {
+			isa = PBXGroup;
+			children = (
+				D96C32D99E6FA95FE10A33E0ABF873C1 /* CDTAbstractReplication.h */,
+				F6483E360B493341CA9A487FB9B57F76 /* CDTAbstractReplication.m */,
+				6F1EE8D4AABFD202A10D490769866902 /* CDTPullReplication.h */,
+				00E83177AF3AF5A820BF8DB26F1EAAD3 /* CDTPullReplication.m */,
+				4026BA740550A684A4BF1422D7640CFE /* CDTPushReplication.h */,
+				52B6EA74D32D13F5E8B50969947AB2C4 /* CDTPushReplication.m */,
+				2DAE1570009F9693D5DD9FDEE637BB25 /* CDTReplicator.h */,
+				BD30385E153F188DEAAE9049069CD436 /* CDTReplicator.m */,
+				8C21274BA3B4385626B107FE0D788CA2 /* CDTReplicatorDelegate.h */,
+				0D3498CF5EAC9AD94D28025A3763A76D /* CDTReplicatorFactory.h */,
+				8623BA4481C2237D2B2EB5F5C06C4AC6 /* CDTReplicatorFactory.m */,
+			);
+			path = CDTReplicator;
+			sourceTree = "<group>";
+		};
+		3B8854C1E27329FBCB025564EF5A7E3D /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				78F19E2F83D93F00212FCD6CCD959A59 /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		3BAA14A4F06F2232549BE184439AB68D /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3E9869C4DBE1531957D4536116A18514 /* google-toolbox-for-mac */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		3E9869C4DBE1531957D4536116A18514 /* google-toolbox-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				4FD37313724EA8D362F68AB46FCB8304 /* GTMDefines.h */,
+				B23EBAC70BBC774832D08744D9E08FCA /* GTMNSData+zlib.h */,
+				7C8BB4C866B50DEE497956DE2C2E1EDA /* GTMNSData+zlib.m */,
+			);
+			path = "google-toolbox-for-mac";
+			sourceTree = "<group>";
+		};
+		3F215E21E782B3D5AF0ACB1E282EEB08 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				584829662073B696B3A88E73DEBA7E75 /* Core */,
+				3B8854C1E27329FBCB025564EF5A7E3D /* Default */,
+				C92049E7B48854C2F7D13B0D5BD27863 /* Extensions */,
+				16D7B29CC37622612F0078BE8FF33AA4 /* Support Files */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		42A3EF1513669BE68F0B06DBF8BDA037 /* MYUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E7438F9A87DFE99F6085598EFE667CC /* CollectionUtils.h */,
+				47F6E0DF27ED8E9078C9A095BB52A6FE /* CollectionUtils.m */,
+				14D36ED2BBADEBEE769133292E574F77 /* ConcurrentOperation.h */,
+				621D3171CAB931F4F5F10BE0F7F68B77 /* ConcurrentOperation.m */,
+				A75207FC0E2C85B5B3DF924FA1ED0C6C /* ExceptionUtils.h */,
+				AB75DFA3439B252D544F5C2D28808358 /* ExceptionUtils.m */,
+				6715220509D2EDCA271F1722DE3FBC91 /* Logging.h */,
+				66449D6E17CA92D0BBF086BFB5E7DD77 /* Logging.m */,
+				5656234ED6E64D62BE2A96DDB03213CA /* MYBlockUtils.h */,
+				D8E24A39F2622314FC631FB910BC11C6 /* MYBlockUtils.m */,
+				C8DE2913A0F13143758C92FC6C9476DA /* MYDynamicObject.h */,
+				A76294923E10279E62CB08980E6A5A98 /* MYDynamicObject.m */,
+				E30058683F88C1F0840E512393DD23C4 /* MYErrorUtils.h */,
+				34476BA47932702F82935BFDE69E44B8 /* MYErrorUtils.m */,
+				8B4AD8562CE9A76C4A74FEC5A0997A2B /* MYRegexUtils.h */,
+				3CEFFC36945B0BFF0698E1923E6AB030 /* MYRegexUtils.m */,
+				35A87531BFBBC78AE76C97C4AAEC65FB /* MYStreamUtils.h */,
+				AA8EBE7B74FB735D20C553C411DBD74B /* MYStreamUtils.m */,
+				2903BCB2DFAD66B72D0AD154E8E46216 /* MYURLUtils.h */,
+				4A6487A29C0D4EBD29E2E00525E79D70 /* MYURLUtils.m */,
+				4B77FD8B7211C1571F56F3CBC1D037E6 /* Target.h */,
+				FD616A0D5409DA01C7F2F80218FC4A36 /* Target.m */,
+				32B280C12996DDBE418905CB08F4ACB6 /* Test.h */,
+				FFEB6876077B2C1B7601E4D240F23300 /* Test.m */,
+			);
+			path = MYUtilities;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EF902C898ACC11D14AD351608F774 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44865D6372C62440906A19BEDEBDDBFE /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				FE5D5550817C23D760AABBA754320E6B /* Classes */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		4D6E642BE5A5C0FD9814BF88035327F7 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				238A0BB8301DB3370C25A4552DB5B1CA /* FMDatabase+LongLong.h */,
+				CBE27E2228FB8776BE61FCC2FCD0A520 /* FMDatabase+LongLong.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		4E50C6E47170AAE80D179B2B81CB0E59 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4744988DF2CFD8871F1F077BAC13F35 /* CDTDatastore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53FA3D1BE640FAFDCE49199A0235E0D1 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				E1AAE865112D608532DD73F87ACCAF9F /* Support Files */,
+				9A7EA842919F4A33826747E8737A1AE0 /* common */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		584829662073B696B3A88E73DEBA7E75 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4F81912DC4A9965179512AB758A89CE /* DDASLLogCapture.h */,
+				D411E036CF085158FB22D862E725BD76 /* DDASLLogCapture.m */,
+				DA70696B212741154A173F0F1D0FAD03 /* DDASLLogger.h */,
+				6EC974463B911783468EC378C3885347 /* DDASLLogger.m */,
+				FBF7D0026BF04D776E5760D1F67985A0 /* DDAbstractDatabaseLogger.h */,
+				134414B6A263B9A2112F0C92647C8337 /* DDAbstractDatabaseLogger.m */,
+				077782685BD89E4F1A20B27E0766DA52 /* DDAssertMacros.h */,
+				D0A58359DC628C8EFF3FFFC08BE2A87C /* DDFileLogger.h */,
+				2DD2EADE1A005021A9CC8218FE1B30B4 /* DDFileLogger.m */,
+				3FCC2DC16D2C65BDA216FF952C46A6A9 /* DDLegacyMacros.h */,
+				2A6DF1821BA1639E36EC7AB91C3B7282 /* DDLog.h */,
+				54A14061BFCAC708B1F4458B90B2826F /* DDLog.m */,
+				DACE2C1847623A2F127D13B5FCD7EF68 /* DDLog+LOGV.h */,
+				5F1AB3833BF9A231BCBC1B79FF126E6B /* DDLogMacros.h */,
+				CE398908A9C189CCEF0FA0FA7AAD11D3 /* DDTTYLogger.h */,
+				3FD9594A12529863CC27C070B3B00DC8 /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6428EC601C2FB7A32937151DD741B86F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26513EB8138D8975C4B6CF14FD48730E /* CDTDatastore.xcconfig */,
+				F62AD56CDAE75A2CE801F55165FE3CF9 /* CDTDatastore-Private.xcconfig */,
+				B72A88BBA3AD06C12E61530FDDD3C7CC /* CDTDatastore-dummy.m */,
+				F642B1EC1E3E754374F929ABE9125EDB /* CDTDatastore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/CDTDatastore";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4E50C6E47170AAE80D179B2B81CB0E59 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DE1755E91739F3E80F9CAF53C9A4401F /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				AAED4A5687343429E800FC373F37623E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FE5F5C01D2ABE4211E139343749C69A /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				A2185D99213D6D95E259387112632B8F /* Classes */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		94E772BF285C7FE46C9F675C793DB4AD /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				D2C595900903E4F07516D3B34566A565 /* CDTEncryptionKeychainConstants.h */,
+				7513F3E49D86C67D7D82489E4C2BF2DD /* CDTEncryptionKeychainData.h */,
+				0C2AF77B00BA3196FB71B879B0922CA0 /* CDTEncryptionKeychainData.m */,
+				03BF9BF8444ED744E51A7060B77D9190 /* CDTEncryptionKeychainManager.h */,
+				9CE87C9EC56838A8C053FE59A8D1BB2C /* CDTEncryptionKeychainManager.m */,
+				42CDA6E8CA9600F09246896BAB3CB56F /* CDTEncryptionKeychainManager+Internal.h */,
+				0473CA9AB9DB9F9A82A41D9AA156B3DA /* CDTEncryptionKeychainProvider.h */,
+				780765F493BA70AB92BD54F5FDBAFD61 /* CDTEncryptionKeychainProvider.m */,
+				E24DFB7ECCAA2BDCE683073F5F92CC37 /* CDTEncryptionKeychainProvider+Internal.h */,
+				A0CF7E1CC033BCDB84CCD4AD86B5F041 /* CDTEncryptionKeychainStorage.h */,
+				895D4E160A82B088F53FE5BC4A1F06F9 /* CDTEncryptionKeychainStorage.m */,
+				35BA83B088BA46FEF5781267FB2BB0C5 /* CDTEncryptionKeychainUtils.h */,
+				4C00CFDD3B5B0A79C4200B3B46CB658A /* CDTEncryptionKeychainUtils.m */,
+				426720E55497CE23FD51E111C816B60F /* CDTEncryptionKeychainUtils+AES.h */,
+				D7908204E8F078F6CCB9D32EBDE9A4C6 /* CDTEncryptionKeychainUtils+AES.m */,
+				A28F39775EAFEA0061A8B333310CEE97 /* CDTEncryptionKeychainUtils+PBKDF2.h */,
+				B4874726F653623369F899DC84CDEA42 /* CDTEncryptionKeychainUtils+PBKDF2.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		9A7EA842919F4A33826747E8737A1AE0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				E91CC194CA32074FF6855E4EC2B8AAF4 /* FMDB.h */,
+				64A6E07F379D12D6A0E3FA48BAD5A21B /* FMDatabase.h */,
+				E36915D039A55F10AC36EB0E1FA2E36D /* FMDatabase.m */,
+				BC9AD7B0E5E0CD6B89AA6DC9149A2E4C /* FMDatabaseAdditions.h */,
+				90A28198CF235DE262873FAE7C86572A /* FMDatabaseAdditions.m */,
+				AC01A380F66522E20E1BCE61D5393F88 /* FMDatabasePool.h */,
+				5B8A7C9738C007092C6725613E6433DB /* FMDatabasePool.m */,
+				63B1250FA1294B17C2DD73C3F616BCB9 /* FMDatabaseQueue.h */,
+				68D750EBFEAEDC2E9F7FA6E6E630877C /* FMDatabaseQueue.m */,
+				9F00BD0B5B7CEF6455D142758CBD4F60 /* FMResultSet.h */,
+				24837C35B8F0278099CB1304EB3F4514 /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		9DD6EA35715364958ECE9C6BEFDFC07D /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				ACC283C1431BA4D051B250F9CFEB8BA1 /* CDTDatastore+EncryptionKey.h */,
+				79D9DA9E516F368583B4C366BEE406A4 /* CDTDatastoreManager+EncryptionKey.h */,
+				3E3799619FAFD7FCBA2E93752BD54105 /* CDTEncryptionKey.h */,
+				4942F8E5647C5356C4A3267DADBA4237 /* CDTEncryptionKey.m */,
+				77A6BB2E765838923B53F1484DB626BA /* CDTEncryptionKeyNilProvider.h */,
+				B51A9F9BD85D9D02D02E22D91F7A686C /* CDTEncryptionKeyNilProvider.m */,
+				E389C002746609BAC56B532C05D18F8D /* CDTEncryptionKeyProvider.h */,
+				3D818C48D8D4657302844A63CC5AFBAC /* CDTEncryptionKeySimpleProvider.h */,
+				A758CC6E00AB67081E6AF0524C4D4360 /* CDTEncryptionKeySimpleProvider.m */,
+				85FBE4194AFDADC9278EB5F19311AB0F /* CloudantSyncEncryption.h */,
+				692EDE9A9EC976173B4E60FAD18300F1 /* FMDatabase+EncryptionKey.h */,
+				58088D34314F8400EB9AC95B8CFAD3F5 /* FMDatabase+EncryptionKey.m */,
+				D869B33088167F4A4C05A500287343D1 /* Attachments */,
+				94E772BF285C7FE46C9F675C793DB4AD /* Keychain */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		A2185D99213D6D95E259387112632B8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A69AD6E6A211A3CE031E7E036D0D2264 /* common */,
+				3BAA14A4F06F2232549BE184439AB68D /* vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A42A86CDEAE9B4E3F103DD15FDAEBC29 /* query */ = {
+			isa = PBXGroup;
+			children = (
+				8FA98A5AFE93DBE54EF6A5B43D61EC7A /* CDTDatastore+Query.h */,
+				322E3F9F23774508EB89878A73E87BE2 /* CDTDatastore+Query.m */,
+				34F2F757D5D6FEA4FF94D9E5143E08FA /* CDTQIndex.h */,
+				5AF3AFE9B1CDFC8047BC0BFEAD492730 /* CDTQIndex.m */,
+				2BD4F64691490A03E3BD52CC2405A1BE /* CDTQIndexCreator.h */,
+				5FE51558BC29E22D03409F530BA4594E /* CDTQIndexCreator.m */,
+				676F4EE83ACBD4470167BAE0F5A4BB15 /* CDTQIndexManager.h */,
+				3A23A4A93AA9920DBEAA654806E6A328 /* CDTQIndexManager.m */,
+				5EB9B69F58E28FF8C09A4A1383FA4E2F /* CDTQIndexUpdater.h */,
+				1BB4C9597C548AA402B5C841C5B0BB24 /* CDTQIndexUpdater.m */,
+				4981DB36A2B55F18FF17041B8DF192A1 /* CDTQLogging.h */,
+				DC41761E3AA5284DBDEC3785BD1DFDBE /* CDTQProjectedDocumentRevision.h */,
+				D6B236D9A5E309C918A77A3D107C0B32 /* CDTQProjectedDocumentRevision.m */,
+				8BE70402B550BCE87701A8DD18C745B4 /* CDTQQueryConstants.h */,
+				3117707E083BD22B5F9836E6AB623F8F /* CDTQQueryConstants.m */,
+				7EA29AE9980F21509F8C1A718132EE22 /* CDTQQueryExecutor.h */,
+				AC8AD8F346995F6EFF95D08AE0334109 /* CDTQQueryExecutor.m */,
+				93E3605444BC8386A37FE191FF063BF3 /* CDTQQuerySqlTranslator.h */,
+				A132A6667A2680F1F7B1762B3DD7F9CE /* CDTQQuerySqlTranslator.m */,
+				3D223E73A7642EF9E7AFB4EE9D5D5FEB /* CDTQQueryValidator.h */,
+				E778DC9A8233228B42EE68FEC320FAB7 /* CDTQQueryValidator.m */,
+				4B6F68C36582A32A4E0CED0EBAD25B1A /* CDTQResultSet.h */,
+				4F517008A695CB832D052564793A8BE0 /* CDTQResultSet.m */,
+				1C7B7C201709A316E6CF0CAA9CC1FFDC /* CDTQUnindexedMatcher.h */,
+				8A2F9E5E0B3948544E7EB14641DA371A /* CDTQUnindexedMatcher.m */,
+				E8A5F98A54DE9AE5EFCC8A76D7E350E3 /* CDTQValueExtractor.h */,
+				A7668247B7B32E310088203380795A49 /* CDTQValueExtractor.m */,
+			);
+			path = query;
+			sourceTree = "<group>";
+		};
+		A69AD6E6A211A3CE031E7E036D0D2264 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8F59AC5D19FB504796FC315F1801955B /* CDTConflictResolver.h */,
+				197977E18A27104272BCCCB9DCF1DA3E /* CDTDatastore.h */,
+				9C3A7E849B195023F19F55C80A099CC8 /* CDTDatastore.m */,
+				311882F4357663EBF7F5450A89C4E8CF /* CDTDatastore+Conflicts.h */,
+				2C8403DA1B6469A9C45CD283540BE1AB /* CDTDatastore+Conflicts.m */,
+				DB37E524C7417B914BC59B5976A9423A /* CDTDatastore+Internal.h */,
+				3BDA1C98F047CEC179391A645F9CE96A /* CDTDatastore+Internal.m */,
+				7CAADC0B538947825B20CE2B873473CF /* CDTDatastoreManager.h */,
+				D50924047AD743AA6CE4C82689064C59 /* CDTDatastoreManager.m */,
+				D09D32DC79AA888564D5263D293413F2 /* CDTDocumentRevision.h */,
+				1C952F674DAFAFAB96273EFE0478ABBE /* CDTDocumentRevision.m */,
+				3CC22231EC11185EDD3BB570C7F43ABF /* CDTFetchChanges.h */,
+				3F2EB573465BF21EC6F58169334F86DA /* CDTFetchChanges.m */,
+				C9390C859CD83F4F307CA59B2C293CB0 /* CDTLogging.h */,
+				D895EED15B6905CBE1AB95B9861FF3F2 /* CDTLogging.m */,
+				9D0AF00B4124A36D626DA44FD086EF61 /* CDTMacros.h */,
+				C2100DCC057776F1EE856A6617A58C7D /* CDTMisc.h */,
+				6C170240B1483DAC0BD8B1D8BB0D4B13 /* CDTMisc.m */,
+				C6EC370B1107F5DF3996BD8CBF9AB6E4 /* CDTMutableDocumentRevision.h */,
+				2C7736E91B46C341C7DC7EB458414257 /* CDTMutableDocumentRevision.m */,
+				B2542D280F5B9878646C6B039CA83F49 /* CDTSQLiteHelpers.h */,
+				9A0116072BF1EFB0DF9B992230192EDC /* CDTSQLiteHelpers.m */,
+				41ED132C91331D402F35D4418C2BED33 /* CloudantSync.h */,
+				64AC267680BA752267514A38169D3F79 /* Version.h */,
+				F24DCFCA8536CB6D6E5BF922CF9CDACF /* Attachments */,
+				2E23CF103BB870CA380A84497B3FFA50 /* CDTReplicator */,
+				9DD6EA35715364958ECE9C6BEFDFC07D /* Encryption */,
+				E31360EEFB52D66627F96DD7B6E79525 /* HTTP */,
+				4D6E642BE5A5C0FD9814BF88035327F7 /* fmdb */,
+				A42A86CDEAE9B4E3F103DD15FDAEBC29 /* query */,
+				EEA3675EDEFE0EC114AB59FAA7E0E853 /* touchdb */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		AAED4A5687343429E800FC373F37623E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E23A39C8C7B9E57B17DB47224CF36 /* Pods-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4744988DF2CFD8871F1F077BAC13F35 /* CDTDatastore */ = {
+			isa = PBXGroup;
+			children = (
+				6428EC601C2FB7A32937151DD741B86F /* Support Files */,
+				44865D6372C62440906A19BEDEBDDBFE /* no-arc */,
+				8FE5F5C01D2ABE4211E139343749C69A /* standard */,
+			);
+			name = CDTDatastore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C92049E7B48854C2F7D13B0D5BD27863 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D147CB6ABFE0F350E5B03AB6FC1DEE7 /* DDContextFilterLogFormatter.h */,
+				52AAAA7244BA0ECA236FBF4754FBC400 /* DDContextFilterLogFormatter.m */,
+				1D1B03EF5B538D21691771BC20BEDF66 /* DDDispatchQueueLogFormatter.h */,
+				0AF3C22E38E3D83C5B0AAE809B3D1ACD /* DDDispatchQueueLogFormatter.m */,
+				DF70718F56F410C7EDCE74E33CBFFF73 /* DDMultiFormatter.h */,
+				0AAD15898FB0807C0DA2EF8B273D251C /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01BEA8BF7CE604E46DE1E756C082FD0 /* libCDTDatastore.a */,
+				DC1131D4CE3F0FA0DB62239187882C69 /* libCocoaLumberjack.a */,
+				5BA631F697F15BAB0BFDC6B8D8784571 /* libFMDB.a */,
+				FD9FFCDBE969E2C378539917D4AF3588 /* libPods-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D869B33088167F4A4C05A500287343D1 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				0A5844C9978A6BDA4CDF9074251DA7B9 /* CDTBlobEncryptedData.h */,
+				33BF355B346AE9B19B8B09A4DC383C92 /* CDTBlobEncryptedData.m */,
+				1AA54A974E0EC55A29049ECF2AF0CFBF /* CDTBlobEncryptedData+Internal.h */,
+				4B9054C42D9E435D7795737CDDB97D42 /* CDTBlobEncryptedDataConstants.h */,
+				3BA2919B118BAE5B020A3A2A0E95C5E6 /* CDTBlobHandleFactory.h */,
+				E86D99B2BA78FE0ABE69FB284135A3B3 /* CDTBlobHandleFactory.m */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		DC1E23A39C8C7B9E57B17DB47224CF36 /* Pods-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BD16F5E0F50DC014D5C996225EB8D80B /* Pods-ios-acknowledgements.markdown */,
+				F91969A1411FBC6A820CE85A9AE98B06 /* Pods-ios-acknowledgements.plist */,
+				E76328D5B41BF49821762EEC160BA50C /* Pods-ios-dummy.m */,
+				7E56827C637823BFC6CB3031175FD586 /* Pods-ios-resources.sh */,
+				91B6A786F0C65918CFB89F5468F33B6D /* Pods-ios.debug.xcconfig */,
+				B8446FD64F4E9397684E6477FB6A638B /* Pods-ios.release.xcconfig */,
+			);
+			name = "Pods-ios";
+			path = "Target Support Files/Pods-ios";
+			sourceTree = "<group>";
+		};
+		DE1755E91739F3E80F9CAF53C9A4401F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F215E21E782B3D5AF0ACB1E282EEB08 /* CocoaLumberjack */,
+				53FA3D1BE640FAFDCE49199A0235E0D1 /* FMDB */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1AAE865112D608532DD73F87ACCAF9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7584E489914D4E8647EC2D997A64F9E8 /* FMDB.xcconfig */,
+				4955EF2EFBFBC8541F94F51F508B5795 /* FMDB-Private.xcconfig */,
+				862F6F29C5AE0856A5E230BBD28CF713 /* FMDB-dummy.m */,
+				71FE55D99CC61EF1176F45174AFC5C73 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		E31360EEFB52D66627F96DD7B6E79525 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAE5C0BD3876A81A802E5034E78414 /* CDTHTTPInterceptor.h */,
+				B7B3E05B39B3535BEFCD4906B63F53DF /* CDTHTTPInterceptorContext.h */,
+				A7B2B391020717568318C3A084517FAB /* CDTHTTPInterceptorContext.m */,
+				AD2D4973C9A8D04190DF759B0C3317D3 /* CDTSessionCookieInterceptor.h */,
+				0D10629E95988D6DB335B5A1628CA01C /* CDTSessionCookieInterceptor.m */,
+				BAA6C65DF8065F19B2330A647482BB8D /* CDTURLSession.h */,
+				82DCFCB3131131CF300FFA964375B19D /* CDTURLSession.m */,
+				85C8F8A34FCC17FA1B6A72ED9BA6E58F /* CDTURLSessionTask.h */,
+				9D94C7B12462BFF37C19AF0ED0286C04 /* CDTURLSessionTask.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		EEA3675EDEFE0EC114AB59FAA7E0E853 /* touchdb */ = {
+			isa = PBXGroup;
+			children = (
+				DC5BC8FC29CC9706EC1B0BE7C50D79EE /* TDAuthorizer.h */,
+				BFCC329558D8D020B77B6B254AE75D90 /* TDAuthorizer.m */,
+				CDB99CFE0CC4FCEF86EA22B46BB9D65F /* TDBase64.h */,
+				1E73F892E3EDCBC5C45E497CF4E8A090 /* TDBase64.m */,
+				22D689574D55BF5F0E7243B515A08D9E /* TDBatcher.h */,
+				72620DDBC88E1D03FFC9F23E4C0E2264 /* TDBatcher.m */,
+				0907FAFB4295768C03447E7E5C581D1B /* TDBlobStore.h */,
+				5276BDF838E9C4B8641266E08E6D48F6 /* TDBlobStore.m */,
+				89D518BD52273EAA06E4104601BD6043 /* TDBlobStore+Internal.h */,
+				BF951887C63272C77AF2337CFBB2671D /* TDCanonicalJSON.h */,
+				E8275FE3968FBA4C55FBD9A10F11A7CB /* TDCanonicalJSON.m */,
+				879F76E095350290F221BC9585BC99DD /* TDCollateJSON.h */,
+				A0D57317AAA2CB7A8500736657DAD581 /* TDCollateJSON.m */,
+				FC454BAAAFEC2362DC50D36402E9EEEA /* TDInternal.h */,
+				7A9C4E4D5327315FAFF91A83557C56AE /* TDJSON.h */,
+				462F0A6DA6D3782AE640AB22C3BCEBAB /* TDJSON.m */,
+				2E4049951B93274D7876F92AA85A0FB6 /* TDMisc.h */,
+				1B675264DBE82072340E51C5C3422BE8 /* TDMisc.m */,
+				10CDE1BCB459DDEC760E8353C381AA4B /* TDMultiStreamWriter.h */,
+				9E96A153567D725F9F8C4FFA6A455407 /* TDMultiStreamWriter.m */,
+				88FBC0A50F6C43FE2C53BE0AB71ADD2C /* TDMultipartDocumentReader.h */,
+				0F4A3B305CFEFA3D2796B2727F96AE06 /* TDMultipartDocumentReader.m */,
+				73F6F1950FD8AF1C24DAA4A26CD1379A /* TDMultipartDownloader.h */,
+				E1910D4D46A40D98CD944415FBEA0394 /* TDMultipartDownloader.m */,
+				05958ED41190B007B746204FEBF8E0F8 /* TDMultipartReader.h */,
+				885FB752719AB12665027DEEC5F68EBE /* TDMultipartReader.m */,
+				EFFC2EE4364DE1B3F1A179FECEA0CAB0 /* TDMultipartUploader.h */,
+				E47B77B9BA2545A5D6CF6342234CF802 /* TDMultipartUploader.m */,
+				C83FC667212A919951F4D2D3DE9992E0 /* TDMultipartWriter.h */,
+				2D7087B2CBF1FB8D1050A3776AA83C04 /* TDMultipartWriter.m */,
+				4BB4682689731E193DDA4281EE54CC6A /* TDPuller.h */,
+				4B035CEE6C76C7AA47C8F8EE87D3A78C /* TDPuller.m */,
+				9100835958123A4F369FC37192768689 /* TDPusher.h */,
+				0722110ACDBB81CC88E61BBEE3688B31 /* TDPusher.m */,
+				959411DADE72200C75390AB4FB8EAA0A /* TDReachability.h */,
+				6B600BC4FF677F5B9AAE350BC7CE2490 /* TDReachability.m */,
+				36A60589DB17C2CBA1292D1EB9139154 /* TDRemoteRequest.h */,
+				954F51CED9063B4163CDC90F94ACC607 /* TDRemoteRequest.m */,
+				9EDC35A159F82252EB50D19EF1697D2B /* TDReplicator.h */,
+				829B5BC05F630EDA6CECF2A47C48DB9F /* TDReplicator.m */,
+				DA7CA2764AAA28FC53294BEB4B12C634 /* TDReplicatorManager.h */,
+				5A785E5E71A32BDB91EED54B3B03B39D /* TDReplicatorManager.m */,
+				47C71C0220948977A8D55F0B6215707F /* TDSequenceMap.h */,
+				62AA9E40A209088866B18E03941E30F9 /* TDSequenceMap.m */,
+				50D5AF3EDACB87958D2756D1A6ED6181 /* TDStatus.h */,
+				FA609BBC6964D4E64CBAC9AB06882367 /* TDStatus.m */,
+				F0DD2BA27F8A961EDD5871B2E0319CBE /* TD_Attachment.h */,
+				2BF0B3BF11EFDE79AAEADDDA25E6C48C /* TD_Attachment.m */,
+				8FDBEAB0B60F6AC5CC30B1998779FCCA /* TD_Body.h */,
+				EA3A45C4533DE1575E5B42B75B404C52 /* TD_Body.m */,
+				1D8924A1C6E06911AED4F842F60B2761 /* TD_Database.h */,
+				21581812A1108973AFE3DD3030962E67 /* TD_Database.m */,
+				2CD41D9C634506DB0D57646961F87433 /* TD_Database+Attachments.h */,
+				5C3FF16F5276D8CCB226FBBD73D1533A /* TD_Database+Attachments.m */,
+				0E81F4D6B3B16BA29CA7E89881883CB3 /* TD_Database+BlobFilenames.h */,
+				B45D5EE5266D7A5A7D5FD4688139E298 /* TD_Database+BlobFilenames.m */,
+				B2C186BB4C69350138E4AE6DB488DD0E /* TD_Database+Conflicts.h */,
+				EFF9D4900F054291558ECE8CB2D9C3B8 /* TD_Database+Conflicts.m */,
+				4B7C13600FD1C8BDAE4346A06079A9C4 /* TD_Database+Insertion.h */,
+				032905F1A72000BC0D9022FCA2D2EB60 /* TD_Database+Insertion.m */,
+				A8A7B95F337706BFB46247A8FEFEB079 /* TD_Database+LocalDocs.h */,
+				AC8F371A56DACEBF5C0B758AC3DBCE01 /* TD_Database+LocalDocs.m */,
+				18F33EEE77E2C51B7A5DB4F232C39377 /* TD_Database+Replication.h */,
+				4DC4B62C19E9F6E008F1F9F3993B8207 /* TD_Database+Replication.m */,
+				572D7816B63E13077C64DA1E32DE896B /* TD_DatabaseManager.h */,
+				A70336A1EE763EFED852D36B26C9E2AE /* TD_DatabaseManager.m */,
+				909129B62D395B13B2F01F2C7502BC57 /* TD_Revision.h */,
+				BFBD3BE6C35AF36DA060AD466B9CC06A /* TD_Revision.m */,
+				BA5E483B79C6AB8939627960B80582C6 /* TD_View.h */,
+				449C40EA173373C85ED8C3BC46C0CF23 /* TD_View.m */,
+				202CE42D27980D7092677E143F7807DE /* ChangeTracker */,
+			);
+			path = touchdb;
+			sourceTree = "<group>";
+		};
+		F24DCFCA8536CB6D6E5BF922CF9CDACF /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				7E23F93F2E00C1442BD0185F3CFF8B33 /* CDTAttachment.h */,
+				7F11951EEF4F0A6A14C3108F7D190E3B /* CDTAttachment.m */,
+				751A3D7414B77AB9EC889F590B2E2CCF /* CDTBlobData.h */,
+				F8669BAB22B567B75A5D4A65522044F7 /* CDTBlobData.m */,
+				38E340FC7924DC64F5A4CD18D2332C1C /* CDTBlobReader.h */,
+				B01629A5237E39485BF3B846FEBC3B44 /* CDTBlobWriter.h */,
+				9986BB2B0E4C33FFE78F40DAF038CD68 /* CDTDatastore+Attachments.h */,
+				75F49206361C39A2B5CA98F18D3296C1 /* CDTDatastore+Attachments.m */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		FB9EF902C898ACC11D14AD351608F774 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01CA141B99A876D60ACED0EF2E382370 /* Foundation.framework */,
+				EC9E3D14290B5ED113AB6D7C8267FBEE /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE5D5550817C23D760AABBA754320E6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D642E1E9254C78E6D31F51EC76AC7F2 /* vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F8E4DBD93C512E5CA1C20611C849AF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDA77E2BB83268F3A2BBB11458AF37E /* CocoaLumberjack.h in Headers */,
+				A8985F5C4A012492E1C57477F1BB7DFA /* DDASLLogCapture.h in Headers */,
+				719D06811589EDF45B7730EE11E47A1E /* DDASLLogger.h in Headers */,
+				EB93AF61F846C990133FCFCAA857BF9A /* DDAbstractDatabaseLogger.h in Headers */,
+				AF47A70064BFB522ADE1E04FDD14FC57 /* DDAssertMacros.h in Headers */,
+				76F81B8182D49F66085FA4A14C5BFACE /* DDContextFilterLogFormatter.h in Headers */,
+				26032C289559AEDEB278BF1F765A28E0 /* DDDispatchQueueLogFormatter.h in Headers */,
+				C4727085D9547AB982ADE0663313039F /* DDFileLogger.h in Headers */,
+				3F09FE32EF61E79730E99046ABCA64D4 /* DDLegacyMacros.h in Headers */,
+				0029919B99B75DC0ADAD69AB903B242D /* DDLog+LOGV.h in Headers */,
+				3D3A1DE6D7E8B3E5FDA6A4FD3965D04B /* DDLog.h in Headers */,
+				9F3DBF7BD8CCC307573B5431E56B83BD /* DDLogMacros.h in Headers */,
+				FDDF80A4BE2605FEBA4D35C8750D392D /* DDMultiFormatter.h in Headers */,
+				D844B43037960D46637B7E9D1776DCE5 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB7F63F2E456D2EEDC172A2EB00593A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AEB72601135CFD8AD617C82BCA508A /* FMDB.h in Headers */,
+				8197C7E5ABC09B71ACDBDB034D9239FB /* FMDatabase.h in Headers */,
+				665659EB610795DD7A196E1E7AF7A98D /* FMDatabaseAdditions.h in Headers */,
+				51B93E47D0A2927813EF4325C13CFAFE /* FMDatabasePool.h in Headers */,
+				3CFD4C7299475BC3204CC6861F6712C9 /* FMDatabaseQueue.h in Headers */,
+				DD7EE7A76A06ED3630C506CEDB478C3F /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AF3E68C1423AB991D24B6E0888810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466E4A28B311F6C4A8F9FCE212F15391 /* CDTAbstractReplication.h in Headers */,
+				4BE236B7B08D3FDDED1A17E09A9FEC4D /* CDTAttachment.h in Headers */,
+				C817D1636D0DA565D7A3C7353221BFA5 /* CDTBlobData.h in Headers */,
+				7510F68AB8F72E4F267110BCED5B90FE /* CDTBlobEncryptedData+Internal.h in Headers */,
+				104547FF8F7C907288FDC34822393BAA /* CDTBlobEncryptedData.h in Headers */,
+				15405808B8808B384FB8B294F5D3A2EF /* CDTBlobEncryptedDataConstants.h in Headers */,
+				5B98DCB9498F01654936A985910A79E0 /* CDTBlobHandleFactory.h in Headers */,
+				F61031B62E474FE8462EE8CE56EA15CF /* CDTBlobReader.h in Headers */,
+				2A0594E6627CC2C71F18B0F91EB45540 /* CDTBlobWriter.h in Headers */,
+				41CE37154E3D2AFDC0120AE17DE76EC9 /* CDTConflictResolver.h in Headers */,
+				7B6F642309505B574F9C391E85943025 /* CDTDatastore+Attachments.h in Headers */,
+				2E1D216ED853BC28D23C2C6EDC19508C /* CDTDatastore+Conflicts.h in Headers */,
+				B49B0DE1055CBA85745953349F511232 /* CDTDatastore+EncryptionKey.h in Headers */,
+				1F46B116B9BFA28E065E8462C5441877 /* CDTDatastore+Internal.h in Headers */,
+				F64F694F3A2D4F4A14B29D3306566A90 /* CDTDatastore+Query.h in Headers */,
+				A89803CCCDC19EE2E2E21E2E58D5BD0F /* CDTDatastore.h in Headers */,
+				1C92E960EBD9023BD50AB08E4F454503 /* CDTDatastoreManager+EncryptionKey.h in Headers */,
+				F054646729CA0C94A47BA821C4695A9F /* CDTDatastoreManager.h in Headers */,
+				831A173C270F94D00C095A872B6A284A /* CDTDocumentRevision.h in Headers */,
+				C8CE53CC44868CA753939C6A5F10C345 /* CDTEncryptionKey.h in Headers */,
+				D6D167EAF8E94E3D7D1850F38384CF53 /* CDTEncryptionKeyNilProvider.h in Headers */,
+				8748143322CD4E817F775910EC2524F3 /* CDTEncryptionKeyProvider.h in Headers */,
+				6BAF51873C82F72251407C9404A55E9E /* CDTEncryptionKeySimpleProvider.h in Headers */,
+				0CC0144E964BA4F9FD8E34FDDAC586FD /* CDTEncryptionKeychainConstants.h in Headers */,
+				D4BE429E97AE56174F7C44D91014E352 /* CDTEncryptionKeychainData.h in Headers */,
+				C75987C29174D39DFBA0E6DCD8C13B27 /* CDTEncryptionKeychainManager+Internal.h in Headers */,
+				79B5D1128B40CA422F153456599DE8B5 /* CDTEncryptionKeychainManager.h in Headers */,
+				8A5C442EF87777F2B349AE7828BDAE1C /* CDTEncryptionKeychainProvider+Internal.h in Headers */,
+				88D953523BC27C70BC9F51FBCE331CD8 /* CDTEncryptionKeychainProvider.h in Headers */,
+				0EB10D7656249E8F827EA31467289402 /* CDTEncryptionKeychainStorage.h in Headers */,
+				3B56F42A99A366D2018A13370FC80F24 /* CDTEncryptionKeychainUtils+AES.h in Headers */,
+				66014C46522C33F0F9F08112421ECB12 /* CDTEncryptionKeychainUtils+PBKDF2.h in Headers */,
+				161D2D532C578B9F784501F997E105B6 /* CDTEncryptionKeychainUtils.h in Headers */,
+				2B85CC2B12E9AC27C0E1C598AF0445A9 /* CDTFetchChanges.h in Headers */,
+				7B7173D96B76E413A0BBFD00E3421EDA /* CDTHTTPInterceptor.h in Headers */,
+				1192C74C494413D817B36B90A2AEA6CE /* CDTHTTPInterceptorContext.h in Headers */,
+				08BE96E50FEA914C17822A63F52C85EF /* CDTLogging.h in Headers */,
+				BA60FB1309856EE34A079E45E7FC42BB /* CDTMacros.h in Headers */,
+				487CBF98D1A2AA159CDCFC01828AFD08 /* CDTMisc.h in Headers */,
+				4EFA677C676E45B41EE5E151EFAFE718 /* CDTMutableDocumentRevision.h in Headers */,
+				4AF69A8AD9A2A81B76EDFF4F63648FC8 /* CDTPullReplication.h in Headers */,
+				B6F07121A167666E852A1053E4AE4D0C /* CDTPushReplication.h in Headers */,
+				C97DE5711964F6336F92EE6BCDE17983 /* CDTQIndex.h in Headers */,
+				F9C06C645C827D1BEBAD29AEE05660A6 /* CDTQIndexCreator.h in Headers */,
+				767ABD700C00A13182699DCC5DD0F59A /* CDTQIndexManager.h in Headers */,
+				0A59AF8A68C81AD96C4E3ECFF8AE93F1 /* CDTQIndexUpdater.h in Headers */,
+				E37FC80C844067E42BB6DD611C4554ED /* CDTQLogging.h in Headers */,
+				3AF688B0807A8521D09812E6D03C7AAA /* CDTQProjectedDocumentRevision.h in Headers */,
+				51BEE045F3E096C32C0F2747FAD05834 /* CDTQQueryConstants.h in Headers */,
+				70731045ED6FA243EF6EE1E6B18CB685 /* CDTQQueryExecutor.h in Headers */,
+				5368A50769744B8290CEB6ED1E06048D /* CDTQQuerySqlTranslator.h in Headers */,
+				889514DDF3375086605B833926B31092 /* CDTQQueryValidator.h in Headers */,
+				6FD0A32948D872E173729AA8544C6F53 /* CDTQResultSet.h in Headers */,
+				7DFB223591D18DFEBF3EC5FCBD7CFAD3 /* CDTQUnindexedMatcher.h in Headers */,
+				D82EA09DD99422DF134E67EBD5366C4B /* CDTQValueExtractor.h in Headers */,
+				9C76D9018830F16BF9AFFD24CA036C76 /* CDTReplicator.h in Headers */,
+				43E6493E112DB2167ADBDE2055C6ECD6 /* CDTReplicatorDelegate.h in Headers */,
+				858F66E26D88CF82251E84ADB6008F5B /* CDTReplicatorFactory.h in Headers */,
+				43BD979CB4AE07FF73404AD53997A9DC /* CDTSQLiteHelpers.h in Headers */,
+				083D6A9591CA8425A1A2EC86F1B4CF2C /* CDTSessionCookieInterceptor.h in Headers */,
+				54541D12ABC7C8720827C061B418E2C0 /* CDTURLSession.h in Headers */,
+				DE3BBF8D2484CA2C1E1353DDA5D06C71 /* CDTURLSessionTask.h in Headers */,
+				2EAE79028DBC290AC517D65C9BD25E56 /* CloudantSync.h in Headers */,
+				90C6F1F75D2BB75E94FCB54CBFE16DAD /* CloudantSyncEncryption.h in Headers */,
+				C0973DED05747B3F62F3B898AC654A57 /* CollectionUtils.h in Headers */,
+				38EF4854C2C86C5F3FF98398D76A7536 /* ConcurrentOperation.h in Headers */,
+				9B1F4B671CBC5036A8BC9FDEF7E7ED02 /* ExceptionUtils.h in Headers */,
+				31B1204B96F0A293DD78D8B4B9CEF881 /* FMDatabase+EncryptionKey.h in Headers */,
+				C8D4CAC2319D0DE6B594BE7493D90C22 /* FMDatabase+LongLong.h in Headers */,
+				DEB6D74A2E599F06BCED4A479BC4B37A /* GTMDefines.h in Headers */,
+				3B2911E8C495DCCF4A162FAED4EEBBBB /* GTMNSData+zlib.h in Headers */,
+				821E48FE1FD34923DD71966F5867AA0A /* Logging.h in Headers */,
+				62D69CD79BA7CA0B4F5EB5C7E106F936 /* MYBlockUtils.h in Headers */,
+				CD5280A9DFD8733B353C9C310A31FE6C /* MYDynamicObject.h in Headers */,
+				325B79CECD3818DDB38F1172AADB3E87 /* MYErrorUtils.h in Headers */,
+				3E2E4234ECA8842EA2DA76AA03F72C83 /* MYRegexUtils.h in Headers */,
+				FC2C62EBF7A8882301016F2F087CADBF /* MYStreamUtils.h in Headers */,
+				F6F1B4259077FB6F2DE2DF6CC490AF68 /* MYURLUtils.h in Headers */,
+				61648D16DED93DF13680DE3555A9B174 /* TDAuthorizer.h in Headers */,
+				10AC0DEFC78476DCD6E71F0C39A3D276 /* TDBase64.h in Headers */,
+				B757C0A0A8A59D8DAEF33BF82AB994EE /* TDBatcher.h in Headers */,
+				23283B36CC18B2C6B2183CD85E3B4313 /* TDBlobStore+Internal.h in Headers */,
+				8AB766F6E785E26629AFA8F53A0B8D25 /* TDBlobStore.h in Headers */,
+				2B14D7843F7020361D3E57B9AE24AF22 /* TDCanonicalJSON.h in Headers */,
+				7062B3688C3A142551CDBC2429D1B8E1 /* TDChangeTracker.h in Headers */,
+				DA1905A3E00B7619C37DC8912889FC30 /* TDCollateJSON.h in Headers */,
+				4B5D9B90403ABC4C63ABD32B87D1754F /* TDInternal.h in Headers */,
+				B78F41EDC65093A1FD3BD7BE0FBD0E31 /* TDJSON.h in Headers */,
+				78803680334BF6BBCC8C57A65F5108B5 /* TDMisc.h in Headers */,
+				EB737D788CF52986DDCE36D7EF0DBF1F /* TDMultiStreamWriter.h in Headers */,
+				461804A4AEE0217C156825CE14AF33A3 /* TDMultipartDocumentReader.h in Headers */,
+				EA428C66ACF12DCD023DE5747AF54C59 /* TDMultipartDownloader.h in Headers */,
+				3BB07F1885F84A8D787965B695C72F63 /* TDMultipartReader.h in Headers */,
+				592E54180F191041E3B0C07195191E6C /* TDMultipartUploader.h in Headers */,
+				78ED5D854288D0501ACC789D0FA0F5BD /* TDMultipartWriter.h in Headers */,
+				6D7692FD20DA0657F2C9DD584A35BF84 /* TDPuller.h in Headers */,
+				CAFCF599686AA184BEEB104483E7CD67 /* TDPusher.h in Headers */,
+				03532F7B568E568A805A5DF4FECBD3FD /* TDReachability.h in Headers */,
+				C07B957559F624769DBA822305576E72 /* TDRemoteRequest.h in Headers */,
+				76A50BFCECBBCFFCC269A8278ED495FA /* TDReplicator.h in Headers */,
+				94A9892739A33D5C2E3136112989E1D1 /* TDReplicatorManager.h in Headers */,
+				014901B9ACA008022BFD6CA59CBAA985 /* TDSequenceMap.h in Headers */,
+				6227C6EEA799524A7B9120792611127D /* TDSocketChangeTracker.h in Headers */,
+				399DC768EFE213D833D1E221494C5F17 /* TDStatus.h in Headers */,
+				98E13850C2262AA89ABFA07D92D190AD /* TDURLConnectionChangeTracker.h in Headers */,
+				84A0E4E398D92E863BA1BAC5D67E8371 /* TD_Attachment.h in Headers */,
+				410E0CD00E47899402A5B275C553E162 /* TD_Body.h in Headers */,
+				32914A2E13955CDDA5BA219150BBF9E4 /* TD_Database+Attachments.h in Headers */,
+				941E6AAD08912F8F0BB1E4B3192A0970 /* TD_Database+BlobFilenames.h in Headers */,
+				A7AC8D81FAC1DEC0BF82E70A4DD8F18E /* TD_Database+Conflicts.h in Headers */,
+				86B15E273CB97C5BB3C9B5BD62C3A958 /* TD_Database+Insertion.h in Headers */,
+				1F0D2490F616C7C2A0599B08042B6D80 /* TD_Database+LocalDocs.h in Headers */,
+				968ABF7B16B4FC9ED58280ED62AEFF91 /* TD_Database+Replication.h in Headers */,
+				3EA12C61D14502351FCDBC08F90FC269 /* TD_Database.h in Headers */,
+				E25852E243F48973DBDB47F914BD5576 /* TD_DatabaseManager.h in Headers */,
+				F1B39FFF8C881B12D09BC984C9F49E86 /* TD_Revision.h in Headers */,
+				0FD809645B8276C7E14AB6360F49825E /* TD_View.h in Headers */,
+				853041BE2A33442C0F54658D4A9241C6 /* Target.h in Headers */,
+				6063A06A50FF15560DF3BE56E75EC4E8 /* Test.h in Headers */,
+				019F4E2F553ECDC02758450D621FDAD5 /* Version.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2ABC55CA62C8ECBE69A4E133A3A11CEA /* CDTDatastore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D873FB16923E94AA3DE611ED581D65F /* Build configuration list for PBXNativeTarget "CDTDatastore" */;
+			buildPhases = (
+				FA3C516CFE833A869C35C14BAACE4D4F /* Sources */,
+				08C08FEF7DBB30E2EA19496D91022B34 /* Frameworks */,
+				B54AF3E68C1423AB991D24B6E0888810 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0A46CD86C850AEFFBF4AFF91EFCB61 /* PBXTargetDependency */,
+				36C72EB16FC15FC7C18410A20DC627F8 /* PBXTargetDependency */,
+			);
+			name = CDTDatastore;
+			productName = CDTDatastore;
+			productReference = C01BEA8BF7CE604E46DE1E756C082FD0 /* libCDTDatastore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		332A0FD166941D5FD95A0E7C14485539 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90C1735E0B78BD47DBFC56A751666A1 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				01F2133581A7E40652EDC0FCF44C69C2 /* Sources */,
+				4A04BEAA3ED5DB689A84F45C990B1F4E /* Frameworks */,
+				3F8E4DBD93C512E5CA1C20611C849AF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = DC1131D4CE3F0FA0DB62239187882C69 /* libCocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C90F3E750D3D21550085B2B6C7A9B40 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB30689073409DC3FD4EE50EBED8F6D /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				04743125BD234F5669AFEB73F7029A34 /* Sources */,
+				35F5A5549F885456B83DCCC0581CF646 /* Frameworks */,
+				ABB7F63F2E456D2EEDC172A2EB00593A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 5BA631F697F15BAB0BFDC6B8D8784571 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5B500717DD381FFE35EC98DF2A43CFE /* Pods-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9112FBB38F7C0D3341CFED5BF847C97B /* Build configuration list for PBXNativeTarget "Pods-ios" */;
+			buildPhases = (
+				90692E3547ED045E72FDEBF50FCB0ED9 /* Sources */,
+				3B4D746C6F8EAF4CC8D7DAE66E44F9DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CAC161157BE6C65223CEE19AEEA38E /* PBXTargetDependency */,
+				4015CDDA1471EDAE5FF69BCADBA6E948 /* PBXTargetDependency */,
+				9FD22D5A5CCB9021D55C4E33ECF71E17 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios";
+			productName = "Pods-ios";
+			productReference = FD9FFCDBE969E2C378539917D4AF3588 /* libPods-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ABC55CA62C8ECBE69A4E133A3A11CEA /* CDTDatastore */,
+				332A0FD166941D5FD95A0E7C14485539 /* CocoaLumberjack */,
+				9C90F3E750D3D21550085B2B6C7A9B40 /* FMDB */,
+				A5B500717DD381FFE35EC98DF2A43CFE /* Pods-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F2133581A7E40652EDC0FCF44C69C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31277BF56C8F0A71DC5996FA7D047B4 /* CocoaLumberjack-dummy.m in Sources */,
+				DA549EB6AD18352673D1D5E055128EFE /* DDASLLogCapture.m in Sources */,
+				974665651694B1520177C4C4D9CC5372 /* DDASLLogger.m in Sources */,
+				16563DAB67DD2F1E0250076534FAD07C /* DDAbstractDatabaseLogger.m in Sources */,
+				0DB33C9288DC9A9BB70A4E82BF434D25 /* DDContextFilterLogFormatter.m in Sources */,
+				7240879D56D21DC57CC8CC97F19AAC11 /* DDDispatchQueueLogFormatter.m in Sources */,
+				198070D31AF01527A231BA8A907CF9D3 /* DDFileLogger.m in Sources */,
+				BD851F44F8409C47F9FC87B93BC6A154 /* DDLog.m in Sources */,
+				BA415BD6EEDB2B9759EB01BD14A61297 /* DDMultiFormatter.m in Sources */,
+				BBF5E78CFFCFCA16431E68975AC5D942 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04743125BD234F5669AFEB73F7029A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF8370D3D69353DF637F302CA994C98 /* FMDB-dummy.m in Sources */,
+				A613581598238CCB9F39CCD814C261F2 /* FMDatabase.m in Sources */,
+				96FE9D4C66817A573A3411948E5CB5CE /* FMDatabaseAdditions.m in Sources */,
+				7F025C3ECFEF90B05754722660A1287D /* FMDatabasePool.m in Sources */,
+				1DB4BD6EC3754F0BCAA8913819071F49 /* FMDatabaseQueue.m in Sources */,
+				DAC0061F0CEA20F5837DEDF1FB8FA2F4 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90692E3547ED045E72FDEBF50FCB0ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD8660F70A1E1FDEDB9529917BF549B /* Pods-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C516CFE833A869C35C14BAACE4D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C93385AD0DE736E0C89B62E5CE802A1 /* CDTAbstractReplication.m in Sources */,
+				DCF1542B5804D199AC9D68B42235F93F /* CDTAttachment.m in Sources */,
+				44B0E495231985239A4390EDBF3BBC7B /* CDTBlobData.m in Sources */,
+				9252B2D25FAAF41F33BB97BC9B3012DF /* CDTBlobEncryptedData.m in Sources */,
+				6DFE2155932D086E36E7C1FB40D722B9 /* CDTBlobHandleFactory.m in Sources */,
+				59B1477DF5F131CE2455582E59218EB5 /* CDTDatastore+Attachments.m in Sources */,
+				2C95BD1C4E4B868D8316FE14E1ED40BF /* CDTDatastore+Conflicts.m in Sources */,
+				62915F8643265D04F44B18B5B77F3DFD /* CDTDatastore+Internal.m in Sources */,
+				F1020944B97588BC06FD604CC4713D0C /* CDTDatastore+Query.m in Sources */,
+				5613C8726381615AE02C1C581ED91E29 /* CDTDatastore-dummy.m in Sources */,
+				F02832CE125E55D3942CA15DC8E43150 /* CDTDatastore.m in Sources */,
+				55C1487488787B8E5B754198AE69B18A /* CDTDatastoreManager.m in Sources */,
+				0912AB8C4610D3FFCE80B2927886AF7B /* CDTDocumentRevision.m in Sources */,
+				216D419AA1F3875F4F003845A5AB23A9 /* CDTEncryptionKey.m in Sources */,
+				44ED0DBA1E0E68D2D989F9F17D351411 /* CDTEncryptionKeyNilProvider.m in Sources */,
+				CE10FE2D9F1B5861BF0998BFF12FA472 /* CDTEncryptionKeySimpleProvider.m in Sources */,
+				F949FED7EC2A98549BE9431E22DA80BF /* CDTEncryptionKeychainData.m in Sources */,
+				69F08510AE924FCE10F62C6BF2CA2F67 /* CDTEncryptionKeychainManager.m in Sources */,
+				AFC764173F30DB2090D96E0D7A8C2797 /* CDTEncryptionKeychainProvider.m in Sources */,
+				3B3D5E4A1B2F67D55750D94BBDB7FDAF /* CDTEncryptionKeychainStorage.m in Sources */,
+				D3055BCD2E08E3DED2199049BB0A3F5D /* CDTEncryptionKeychainUtils+AES.m in Sources */,
+				0F0AF77D8471B2593272BDD64720BAA1 /* CDTEncryptionKeychainUtils+PBKDF2.m in Sources */,
+				B98FC87C85D9EB8FCA5F3CD3E15F5655 /* CDTEncryptionKeychainUtils.m in Sources */,
+				508683E206C72B58E85A39D222BBB5C0 /* CDTFetchChanges.m in Sources */,
+				626849CDF84CF7EED88ED5BF186AFA87 /* CDTHTTPInterceptorContext.m in Sources */,
+				0B824AA3247628879D51279B6F4C7301 /* CDTLogging.m in Sources */,
+				DDB38F784082B7995C1032C54652891D /* CDTMisc.m in Sources */,
+				D92442409B3CE663764845C5999ACA60 /* CDTMutableDocumentRevision.m in Sources */,
+				77596EA3AFB51494DFD2CD91E0B0245B /* CDTPullReplication.m in Sources */,
+				C3C01C8618A484BDFC6DDE243852C764 /* CDTPushReplication.m in Sources */,
+				B029599C82762124E69D114614A5F019 /* CDTQIndex.m in Sources */,
+				3FDB35A3032844C3E10D3DECFE23F275 /* CDTQIndexCreator.m in Sources */,
+				42BC282D93953EE68DC4B13AC63BC4CE /* CDTQIndexManager.m in Sources */,
+				7A9050795C4F186A5C2528D053F578B5 /* CDTQIndexUpdater.m in Sources */,
+				34FCBB34CB21FE2508F8FE9314D2DFCD /* CDTQProjectedDocumentRevision.m in Sources */,
+				A250DE274C42109311CE29B30EC07C91 /* CDTQQueryConstants.m in Sources */,
+				94C838118B24E2891036DD3FE1A3EAAE /* CDTQQueryExecutor.m in Sources */,
+				45A17C2C605E9685F85EA497476AFF07 /* CDTQQuerySqlTranslator.m in Sources */,
+				1C162B9E24737222859C8CAB398ECB85 /* CDTQQueryValidator.m in Sources */,
+				6E482A5F612EE8FB15134EBFDF362F90 /* CDTQResultSet.m in Sources */,
+				70A7EDAE83686B9464A2E0E29187517F /* CDTQUnindexedMatcher.m in Sources */,
+				885C5E646EAE4CF277D0351D5C190227 /* CDTQValueExtractor.m in Sources */,
+				3F048CF33AA5F4D5107326A1A3A6D62F /* CDTReplicator.m in Sources */,
+				0F4CA555C0646AEA543214710F3B3D34 /* CDTReplicatorFactory.m in Sources */,
+				F2D6C26CFF8F36747413126FE255C196 /* CDTSQLiteHelpers.m in Sources */,
+				5FBB714BD222F17E64E965482F814D6A /* CDTSessionCookieInterceptor.m in Sources */,
+				FBD68C6C75152AED1323C01AD688E17C /* CDTURLSession.m in Sources */,
+				7FC44DD6702E446F3FC6CC0C4AA26F74 /* CDTURLSessionTask.m in Sources */,
+				73A5EE849ABE3579B556BF92D2190D60 /* CollectionUtils.m in Sources */,
+				EDE9B3FFCE3583B6AE3116B7AEEA44C4 /* ConcurrentOperation.m in Sources */,
+				F58013E84BA8F113CB881C5CD5CC5ABB /* ExceptionUtils.m in Sources */,
+				A5CEE47742999C9CDEB4B12F9FF28C91 /* FMDatabase+EncryptionKey.m in Sources */,
+				9B64D391F1E6EAF696D1D6A9554427B6 /* FMDatabase+LongLong.m in Sources */,
+				E5C4AFACE30510CBDF305200D96016B4 /* GTMNSData+zlib.m in Sources */,
+				1E908DB804242BCA11EA98324EF64E83 /* Logging.m in Sources */,
+				327FCF563D1EE94FCC519C6D35AA64A2 /* MYBlockUtils.m in Sources */,
+				7A3AA59287B88C3937DB5F9C98EEFE65 /* MYDynamicObject.m in Sources */,
+				85ACBC168053000372B91D91CBE53BCE /* MYErrorUtils.m in Sources */,
+				B0A91B031F22A1E419C55694E0995723 /* MYRegexUtils.m in Sources */,
+				764D5136BB675122AD21D0AD49CA242F /* MYStreamUtils.m in Sources */,
+				A29F904DB33FD3BE93A0197EF02C780A /* MYURLUtils.m in Sources */,
+				35EEE7018E8D2B468DE1CE779EEFFEFA /* TDAuthorizer.m in Sources */,
+				60B445F1EBE4C21DDF386C13B5DD3D9D /* TDBase64.m in Sources */,
+				A8895DB5B9FD547CCDFC7F9EB52F0CBC /* TDBatcher.m in Sources */,
+				37184FBBCE7CAA268F5F1A2DED0CF1B4 /* TDBlobStore.m in Sources */,
+				023FF5FE327FA2EB64D46D0381828B02 /* TDCanonicalJSON.m in Sources */,
+				9A9009CC6F78F60F7E8D462907EEEF71 /* TDChangeTracker.m in Sources */,
+				29C84AFDFB9D6FB4F9DD57E877E8787C /* TDCollateJSON.m in Sources */,
+				65733AEA77648D96ADBBB3931F1B0A98 /* TDJSON.m in Sources */,
+				9540D92E4BDE13CAB5665F1CA2BF363F /* TDMisc.m in Sources */,
+				5852208233D8DBBD5E1723A94B737023 /* TDMultiStreamWriter.m in Sources */,
+				B77643978935CA78134A60186AE10C25 /* TDMultipartDocumentReader.m in Sources */,
+				EAADB83A1547831E3EE7B3794A334934 /* TDMultipartDownloader.m in Sources */,
+				DEC479B0C1CBE468ABE731EE7AE28EDC /* TDMultipartReader.m in Sources */,
+				F70A7966FD913A67E2263868DA710BC6 /* TDMultipartUploader.m in Sources */,
+				41D59750E836BABE431E994682EC438A /* TDMultipartWriter.m in Sources */,
+				F173E198FA3300F9B0CD6327DE420BB8 /* TDPuller.m in Sources */,
+				E6886596CDFD5DF7878D18D1B0630826 /* TDPusher.m in Sources */,
+				035B185FA9C8AE61F5095CED93559A50 /* TDReachability.m in Sources */,
+				65DD2809EFDFC2DE7D2A774358E814C2 /* TDRemoteRequest.m in Sources */,
+				35387583FE5146ABE13AE6AD952F86BF /* TDReplicator.m in Sources */,
+				C986D22E4598BCACC6C848A6BF8C914C /* TDReplicatorManager.m in Sources */,
+				3864D11ABEBB3D876414255E723D742A /* TDSequenceMap.m in Sources */,
+				8C37D2DCEC8A5867D79E339D88B6840E /* TDSocketChangeTracker.m in Sources */,
+				6B907A5A4BDE5AC0C66706545FA9AAD6 /* TDStatus.m in Sources */,
+				3B993F214EB89EA1F321F22DC400AFBC /* TDURLConnectionChangeTracker.m in Sources */,
+				858CF3D0AA315830BE60D5A31594A5BB /* TD_Attachment.m in Sources */,
+				DE8547F19C6D0C2D58AA312E0DC4620E /* TD_Body.m in Sources */,
+				446A9152DA3AC4AAA4318E8DBE6071DA /* TD_Database+Attachments.m in Sources */,
+				21F014A9F82F4276F00F8385447852C8 /* TD_Database+BlobFilenames.m in Sources */,
+				21BC82A5EE8EB8468098E42BDFD6C8CD /* TD_Database+Conflicts.m in Sources */,
+				A1B8F6F4BE948D49C5807BE3BC251773 /* TD_Database+Insertion.m in Sources */,
+				55D7DA41386EB7F1C1832919758C65E7 /* TD_Database+LocalDocs.m in Sources */,
+				47DE94366EC9F8CDA125A206417C4F5F /* TD_Database+Replication.m in Sources */,
+				8DE10BD59B5A7A91F57E6D28E32E8279 /* TD_Database.m in Sources */,
+				F1ADCFC3AC09207B666B914C4F534428 /* TD_DatabaseManager.m in Sources */,
+				71BEC3EA69FB46FD84A76C47CD604E66 /* TD_Revision.m in Sources */,
+				5D37943DD6434F82E6DE660539D073C0 /* TD_View.m in Sources */,
+				4A7575248D5F369CEDF1AA1A6FB8238B /* Target.m in Sources */,
+				0529100D98B982BD2349CE73B928A892 /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22CAC161157BE6C65223CEE19AEEA38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDTDatastore;
+			target = 2ABC55CA62C8ECBE69A4E133A3A11CEA /* CDTDatastore */;
+			targetProxy = 5AD3B70AC257F2106AA31BBEBD02751F /* PBXContainerItemProxy */;
+		};
+		36C72EB16FC15FC7C18410A20DC627F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9C90F3E750D3D21550085B2B6C7A9B40 /* FMDB */;
+			targetProxy = BBF7D5438E743E64AAC1D69031C5BCDE /* PBXContainerItemProxy */;
+		};
+		3E0A46CD86C850AEFFBF4AFF91EFCB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 332A0FD166941D5FD95A0E7C14485539 /* CocoaLumberjack */;
+			targetProxy = C40C0D4063FC030C363E516F5F700AA0 /* PBXContainerItemProxy */;
+		};
+		4015CDDA1471EDAE5FF69BCADBA6E948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 332A0FD166941D5FD95A0E7C14485539 /* CocoaLumberjack */;
+			targetProxy = 384C24A347DCF41F46FEB79DE0139F6F /* PBXContainerItemProxy */;
+		};
+		9FD22D5A5CCB9021D55C4E33ECF71E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 9C90F3E750D3D21550085B2B6C7A9B40 /* FMDB */;
+			targetProxy = 6E63D38027170E3E5AA9421B2D1DB2D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222E8807032C297E057E5C0C4945D4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4955EF2EFBFBC8541F94F51F508B5795 /* FMDB-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B65B6D2D2A14143E13976273637C897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62AD56CDAE75A2CE801F55165FE3CF9 /* CDTDatastore-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDTDatastore/CDTDatastore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8102B0B2B4E63CEB9D4CE3B3D3CB0F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B6A786F0C65918CFB89F5468F33B6D /* Pods-ios.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98A80ECA9E21E567B771EDEDE5F1836B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFD987DCC7842E293D8A24D4F2FE7FC /* CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE1F343BD8CF28C15432DEB67023CE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62AD56CDAE75A2CE801F55165FE3CF9 /* CDTDatastore-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDTDatastore/CDTDatastore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C8EAC6EE8918AB8F64D124DB9AECCF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4955EF2EFBFBC8541F94F51F508B5795 /* FMDB-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FBE8FD153A744708647DFCEBA1358FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8446FD64F4E9397684E6477FB6A638B /* Pods-ios.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC259330A400F66C07C305140FB24B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFD987DCC7842E293D8A24D4F2FE7FC /* CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB30689073409DC3FD4EE50EBED8F6D /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222E8807032C297E057E5C0C4945D4B2 /* Debug */,
+				C8EAC6EE8918AB8F64D124DB9AECCF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D873FB16923E94AA3DE611ED581D65F /* Build configuration list for PBXNativeTarget "CDTDatastore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B65B6D2D2A14143E13976273637C897 /* Debug */,
+				BE1F343BD8CF28C15432DEB67023CE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9112FBB38F7C0D3341CFED5BF847C97B /* Build configuration list for PBXNativeTarget "Pods-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8102B0B2B4E63CEB9D4CE3B3D3CB0F7A /* Debug */,
+				FBE8FD153A744708647DFCEBA1358FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90C1735E0B78BD47DBFC56A751666A1 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC259330A400F66C07C305140FB24B94 /* Debug */,
+				98A80ECA9E21E567B771EDEDE5F1836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

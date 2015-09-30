@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+xcodeproj 'Project'
+
+def import_pods
+    pod "CDTDatastore", :path => "../"
+end
+
+target :ios do
+    platform :ios, '7.0'
+    link_with 'Project'
+    import_pods
+end
