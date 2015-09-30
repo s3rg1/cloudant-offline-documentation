@@ -2,7 +2,8 @@
 Digital vault sample App based on Cloudant for iOS library (CDTDatastore) and its sample App, providing automatic documentation download and offline viewer capabilities
 
 ## CDTDatastore sample App fork
-This Digital vault sample App is a modification of the CDTDatastore Project App for iOS.
+This Digital vault sample App is a modification of the CDTDatastore Project App for iOS. The original project is found at [CDTDatastore](https://github.com/cloudant/CDTDatastore).
+
 The To-Do list has been replaced by a PDF document list retrieved from a CouchDB/Cloudant server; and the item tap event displays the PDF document.
 
 ## CouchDB/Cloudant documents
